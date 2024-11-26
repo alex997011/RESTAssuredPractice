@@ -1,0 +1,6 @@
+com\globant\api\requests\BaseRequest.class
+com\globant\api\models\Client$ClientBuilder.class
+com\globant\api\utils\Constants.class
+com\globant\api\models\Client.class
+com\globant\api\requests\ClientRequest.class
+com\globant\api\utils\JsonFileReader.class

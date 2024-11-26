@@ -1,0 +1,1418 @@
+2024-11-25 18:44:43.235 INFO [api.stepDefinitions.Hooks:17] - *****************************************************************************************
+2024-11-25 18:44:43.238 INFO [api.stepDefinitions.Hooks:18] - 	Scenario: View all the clients
+2024-11-25 18:44:43.239 INFO [api.stepDefinitions.Hooks:19] - *****************************************************************************************
+2024-11-25 18:44:47.191 INFO [api.stepDefinitions.Hooks:25] - *****************************************************************************************
+2024-11-25 18:44:47.192 INFO [api.stepDefinitions.Hooks:26] - 	Scenario finished: View all the clients
+2024-11-25 18:44:47.194 INFO [api.stepDefinitions.Hooks:27] - *****************************************************************************************
+2024-11-25 18:50:21.686 INFO [api.stepDefinitions.Hooks:17] - *****************************************************************************************
+2024-11-25 18:50:21.686 INFO [api.stepDefinitions.Hooks:18] - 	Scenario: View all the clients
+2024-11-25 18:50:21.686 INFO [api.stepDefinitions.Hooks:19] - *****************************************************************************************
+2024-11-25 18:50:24.441 INFO [api.stepDefinitions.Hooks:25] - *****************************************************************************************
+2024-11-25 18:50:24.441 INFO [api.stepDefinitions.Hooks:26] - 	Scenario finished: View all the clients
+2024-11-25 18:50:24.441 INFO [api.stepDefinitions.Hooks:27] - *****************************************************************************************
+2024-11-25 18:55:23.493 INFO [api.stepDefinitions.Hooks:17] - *****************************************************************************************
+2024-11-25 18:55:23.498 INFO [api.stepDefinitions.Hooks:18] - 	Scenario: View all the clients
+2024-11-25 18:55:23.498 INFO [api.stepDefinitions.Hooks:19] - *****************************************************************************************
+2024-11-25 18:55:26.339 INFO [api.stepDefinitions.Hooks:25] - *****************************************************************************************
+2024-11-25 18:55:26.339 INFO [api.stepDefinitions.Hooks:26] - 	Scenario finished: View all the clients
+2024-11-25 18:55:26.339 INFO [api.stepDefinitions.Hooks:27] - *****************************************************************************************
+2024-11-25 18:56:03.880 INFO [api.stepDefinitions.Hooks:17] - *****************************************************************************************
+2024-11-25 18:56:03.880 INFO [api.stepDefinitions.Hooks:18] - 	Scenario: View all the clients
+2024-11-25 18:56:03.880 INFO [api.stepDefinitions.Hooks:19] - *****************************************************************************************
+2024-11-25 18:56:07.214 INFO [api.stepDefinitions.Hooks:25] - *****************************************************************************************
+2024-11-25 18:56:07.214 INFO [api.stepDefinitions.Hooks:26] - 	Scenario finished: View all the clients
+2024-11-25 18:56:07.214 INFO [api.stepDefinitions.Hooks:27] - *****************************************************************************************
+2024-11-25 18:57:03.083 INFO [api.stepDefinitions.Hooks:17] - *****************************************************************************************
+2024-11-25 18:57:03.096 INFO [api.stepDefinitions.Hooks:18] - 	Scenario: View all the clients
+2024-11-25 18:57:03.096 INFO [api.stepDefinitions.Hooks:19] - *****************************************************************************************
+2024-11-25 18:57:05.977 INFO [api.stepDefinitions.Hooks:25] - *****************************************************************************************
+2024-11-25 18:57:05.977 INFO [api.stepDefinitions.Hooks:26] - 	Scenario finished: View all the clients
+2024-11-25 18:57:05.977 INFO [api.stepDefinitions.Hooks:27] - *****************************************************************************************
+2024-11-25 18:59:25.074 INFO [api.stepDefinitions.Hooks:17] - *****************************************************************************************
+2024-11-25 18:59:25.079 INFO [api.stepDefinitions.Hooks:18] - 	Scenario: View all the clients
+2024-11-25 18:59:25.079 INFO [api.stepDefinitions.Hooks:19] - *****************************************************************************************
+2024-11-25 18:59:25.628 INFO [api.stepDefinitions.Hooks:25] - *****************************************************************************************
+2024-11-25 18:59:25.628 INFO [api.stepDefinitions.Hooks:26] - 	Scenario finished: View all the clients
+2024-11-25 18:59:25.628 INFO [api.stepDefinitions.Hooks:27] - *****************************************************************************************
+2024-11-25 19:09:11.354 INFO [api.stepDefinitions.Hooks:17] - *****************************************************************************************
+2024-11-25 19:09:11.354 INFO [api.stepDefinitions.Hooks:18] - 	Scenario: View all the clients
+2024-11-25 19:09:11.354 INFO [api.stepDefinitions.Hooks:19] - *****************************************************************************************
+2024-11-25 19:09:11.737 INFO [api.requests.ClientRequest:30] - Endpoint: /api/v1/Clients
+2024-11-25 19:09:13.527 INFO [api.requests.ClientRequest:32] - Response: "Not found"
+2024-11-25 19:09:13.592 ERROR [api.stepDefinitions.ClientSteps:36] - Error in step: Failed to parse the JSON document
+2024-11-25 19:09:13.608 INFO [api.stepDefinitions.Hooks:25] - *****************************************************************************************
+2024-11-25 19:09:13.608 INFO [api.stepDefinitions.Hooks:26] - 	Scenario finished: View all the clients
+2024-11-25 19:09:13.608 INFO [api.stepDefinitions.Hooks:27] - *****************************************************************************************
+2024-11-25 19:17:02.477 INFO [api.stepDefinitions.Hooks:17] - *****************************************************************************************
+2024-11-25 19:17:02.481 INFO [api.stepDefinitions.Hooks:18] - 	Scenario: View all the clients
+2024-11-25 19:17:02.481 INFO [api.stepDefinitions.Hooks:19] - *****************************************************************************************
+2024-11-25 19:17:02.842 INFO [api.requests.ClientRequest:32] - Calling endpoint: https://6743f860b4e2e04abea02a29.mockapi.io/api/v1/Clients
+2024-11-25 19:17:04.735 INFO [api.requests.ClientRequest:34] - Status code: 404
+2024-11-25 19:17:04.752 INFO [api.requests.ClientRequest:35] - Response body: "Not found"
+2024-11-25 19:17:04.830 ERROR [api.stepDefinitions.ClientSteps:36] - Error in step: Failed to parse the JSON document
+2024-11-25 19:17:04.845 INFO [api.stepDefinitions.Hooks:25] - *****************************************************************************************
+2024-11-25 19:17:04.845 INFO [api.stepDefinitions.Hooks:26] - 	Scenario finished: View all the clients
+2024-11-25 19:17:04.845 INFO [api.stepDefinitions.Hooks:27] - *****************************************************************************************
+2024-11-25 19:22:34.020 INFO [api.stepDefinitions.Hooks:17] - *****************************************************************************************
+2024-11-25 19:22:34.020 INFO [api.stepDefinitions.Hooks:18] - 	Scenario: View all the clients
+2024-11-25 19:22:34.020 INFO [api.stepDefinitions.Hooks:19] - *****************************************************************************************
+2024-11-25 19:22:34.351 INFO [api.requests.ClientRequest:32] - Calling endpoint: https://6743f860b4e2e04abea02a29.mockapi.io/Clients
+2024-11-25 19:22:36.165 INFO [api.requests.ClientRequest:34] - Status code: 200
+2024-11-25 19:22:36.182 INFO [api.requests.ClientRequest:35] - Response body: [{"name":"Ona","lastName":"Bode","country":"Heard Island and McDonald Islands","city":"South Bryanaborough","email":"Buford.Runte90@yahoo.com","phone":"1-286-649-3877 x12961","id":"1"},{"name":"Laura","lastName":"Wisoky","country":"Nauru","city":"Andersonfort","email":"Hassan.Hane@gmail.com","phone":"317-820-8909 x309","id":"2"},{"name":"Emmet","lastName":"Jacobs","country":"Benin","city":"Levittown","email":"Joyce.Torp@gmail.com","phone":"953-716-0837 x3183","id":"3"},{"name":"Sylvan","lastName":"Ruecker","country":"Cambodia","city":"Biloxi","email":"Cicero_Gleason32@hotmail.com","phone":"886.466.9322 x055","id":"4"},{"name":"Kayleigh","lastName":"Vandervort","country":"Vanuatu","city":"Montebello","email":"Demond.Hoeger37@gmail.com","phone":"987-307-5850 x5186","id":"5"},{"name":"Tyrell","lastName":"Gerhold","country":"United States of America","city":"Vandervortton","email":"Winifred79@yahoo.com","phone":"(832) 834-9878","id":"6"},{"name":"Aliya","lastName":"Macejkovic","country":"Nicaragua","city":"Elainaview","email":"Adah70@gmail.com","phone":"754-809-2390 x7215","id":"7"},{"name":"Jaleel","lastName":"Hagenes","country":"New Zealand","city":"Johnson City","email":"Claudia_Jacobs@yahoo.com","phone":"414.838.2951 x0275","id":"8"},{"name":"Beaulah","lastName":"Nolan","country":"Indonesia","city":"South Janiyaberg","email":"Nikki_Johnston19@yahoo.com","phone":"684.896.7515 x139","id":"9"},{"name":"Ada","lastName":"Metz","country":"Greenland","city":"North Bethesda","email":"Kattie.Hermann@yahoo.com","phone":"984-899-9547","id":"10"}]
+2024-11-25 19:22:36.307 INFO [api.stepDefinitions.ClientSteps:29] - Response: [
+    {
+        "name": "Ona",
+        "lastName": "Bode",
+        "country": "Heard Island and McDonald Islands",
+        "city": "South Bryanaborough",
+        "email": "Buford.Runte90@yahoo.com",
+        "phone": "1-286-649-3877 x12961",
+        "id": "1"
+    },
+    {
+        "name": "Laura",
+        "lastName": "Wisoky",
+        "country": "Nauru",
+        "city": "Andersonfort",
+        "email": "Hassan.Hane@gmail.com",
+        "phone": "317-820-8909 x309",
+        "id": "2"
+    },
+    {
+        "name": "Emmet",
+        "lastName": "Jacobs",
+        "country": "Benin",
+        "city": "Levittown",
+        "email": "Joyce.Torp@gmail.com",
+        "phone": "953-716-0837 x3183",
+        "id": "3"
+    },
+    {
+        "name": "Sylvan",
+        "lastName": "Ruecker",
+        "country": "Cambodia",
+        "city": "Biloxi",
+        "email": "Cicero_Gleason32@hotmail.com",
+        "phone": "886.466.9322 x055",
+        "id": "4"
+    },
+    {
+        "name": "Kayleigh",
+        "lastName": "Vandervort",
+        "country": "Vanuatu",
+        "city": "Montebello",
+        "email": "Demond.Hoeger37@gmail.com",
+        "phone": "987-307-5850 x5186",
+        "id": "5"
+    },
+    {
+        "name": "Tyrell",
+        "lastName": "Gerhold",
+        "country": "United States of America",
+        "city": "Vandervortton",
+        "email": "Winifred79@yahoo.com",
+        "phone": "(832) 834-9878",
+        "id": "6"
+    },
+    {
+        "name": "Aliya",
+        "lastName": "Macejkovic",
+        "country": "Nicaragua",
+        "city": "Elainaview",
+        "email": "Adah70@gmail.com",
+        "phone": "754-809-2390 x7215",
+        "id": "7"
+    },
+    {
+        "name": "Jaleel",
+        "lastName": "Hagenes",
+        "country": "New Zealand",
+        "city": "Johnson City",
+        "email": "Claudia_Jacobs@yahoo.com",
+        "phone": "414.838.2951 x0275",
+        "id": "8"
+    },
+    {
+        "name": "Beaulah",
+        "lastName": "Nolan",
+        "country": "Indonesia",
+        "city": "South Janiyaberg",
+        "email": "Nikki_Johnston19@yahoo.com",
+        "phone": "684.896.7515 x139",
+        "id": "9"
+    },
+    {
+        "name": "Ada",
+        "lastName": "Metz",
+        "country": "Greenland",
+        "city": "North Bethesda",
+        "email": "Kattie.Hermann@yahoo.com",
+        "phone": "984-899-9547",
+        "id": "10"
+    }
+]
+2024-11-25 19:22:36.904 INFO [api.stepDefinitions.Hooks:25] - *****************************************************************************************
+2024-11-25 19:22:36.904 INFO [api.stepDefinitions.Hooks:26] - 	Scenario finished: View all the clients
+2024-11-25 19:22:36.904 INFO [api.stepDefinitions.Hooks:27] - *****************************************************************************************
+2024-11-25 19:32:55.012 INFO [api.stepDefinitions.Hooks:17] - *****************************************************************************************
+2024-11-25 19:32:55.019 INFO [api.stepDefinitions.Hooks:18] - 	Scenario: View all the clients
+2024-11-25 19:32:55.019 INFO [api.stepDefinitions.Hooks:19] - *****************************************************************************************
+2024-11-25 19:32:55.367 INFO [api.requests.ClientRequest:32] - Calling endpoint: https://6743f860b4e2e04abea02a29.mockapi.io/Clients
+2024-11-25 19:32:57.207 INFO [api.requests.ClientRequest:34] - Status code: 200
+2024-11-25 19:32:57.223 INFO [api.requests.ClientRequest:35] - Response body: [{"name":"Ona","lastName":"Bode","country":"Heard Island and McDonald Islands","city":"South Bryanaborough","email":"Buford.Runte90@yahoo.com","phone":"1-286-649-3877 x12961","id":"1"},{"name":"Laura","lastName":"Wisoky","country":"Nauru","city":"Andersonfort","email":"Hassan.Hane@gmail.com","phone":"317-820-8909 x309","id":"2"},{"name":"Emmet","lastName":"Jacobs","country":"Benin","city":"Levittown","email":"Joyce.Torp@gmail.com","phone":"953-716-0837 x3183","id":"3"},{"name":"Sylvan","lastName":"Ruecker","country":"Cambodia","city":"Biloxi","email":"Cicero_Gleason32@hotmail.com","phone":"886.466.9322 x055","id":"4"},{"name":"Kayleigh","lastName":"Vandervort","country":"Vanuatu","city":"Montebello","email":"Demond.Hoeger37@gmail.com","phone":"987-307-5850 x5186","id":"5"},{"name":"Tyrell","lastName":"Gerhold","country":"United States of America","city":"Vandervortton","email":"Winifred79@yahoo.com","phone":"(832) 834-9878","id":"6"},{"name":"Aliya","lastName":"Macejkovic","country":"Nicaragua","city":"Elainaview","email":"Adah70@gmail.com","phone":"754-809-2390 x7215","id":"7"},{"name":"Jaleel","lastName":"Hagenes","country":"New Zealand","city":"Johnson City","email":"Claudia_Jacobs@yahoo.com","phone":"414.838.2951 x0275","id":"8"},{"name":"Beaulah","lastName":"Nolan","country":"Indonesia","city":"South Janiyaberg","email":"Nikki_Johnston19@yahoo.com","phone":"684.896.7515 x139","id":"9"},{"name":"Ada","lastName":"Metz","country":"Greenland","city":"North Bethesda","email":"Kattie.Hermann@yahoo.com","phone":"984-899-9547","id":"10"}]
+2024-11-25 19:32:57.333 INFO [api.stepDefinitions.ClientSteps:29] - Response: [
+    {
+        "name": "Ona",
+        "lastName": "Bode",
+        "country": "Heard Island and McDonald Islands",
+        "city": "South Bryanaborough",
+        "email": "Buford.Runte90@yahoo.com",
+        "phone": "1-286-649-3877 x12961",
+        "id": "1"
+    },
+    {
+        "name": "Laura",
+        "lastName": "Wisoky",
+        "country": "Nauru",
+        "city": "Andersonfort",
+        "email": "Hassan.Hane@gmail.com",
+        "phone": "317-820-8909 x309",
+        "id": "2"
+    },
+    {
+        "name": "Emmet",
+        "lastName": "Jacobs",
+        "country": "Benin",
+        "city": "Levittown",
+        "email": "Joyce.Torp@gmail.com",
+        "phone": "953-716-0837 x3183",
+        "id": "3"
+    },
+    {
+        "name": "Sylvan",
+        "lastName": "Ruecker",
+        "country": "Cambodia",
+        "city": "Biloxi",
+        "email": "Cicero_Gleason32@hotmail.com",
+        "phone": "886.466.9322 x055",
+        "id": "4"
+    },
+    {
+        "name": "Kayleigh",
+        "lastName": "Vandervort",
+        "country": "Vanuatu",
+        "city": "Montebello",
+        "email": "Demond.Hoeger37@gmail.com",
+        "phone": "987-307-5850 x5186",
+        "id": "5"
+    },
+    {
+        "name": "Tyrell",
+        "lastName": "Gerhold",
+        "country": "United States of America",
+        "city": "Vandervortton",
+        "email": "Winifred79@yahoo.com",
+        "phone": "(832) 834-9878",
+        "id": "6"
+    },
+    {
+        "name": "Aliya",
+        "lastName": "Macejkovic",
+        "country": "Nicaragua",
+        "city": "Elainaview",
+        "email": "Adah70@gmail.com",
+        "phone": "754-809-2390 x7215",
+        "id": "7"
+    },
+    {
+        "name": "Jaleel",
+        "lastName": "Hagenes",
+        "country": "New Zealand",
+        "city": "Johnson City",
+        "email": "Claudia_Jacobs@yahoo.com",
+        "phone": "414.838.2951 x0275",
+        "id": "8"
+    },
+    {
+        "name": "Beaulah",
+        "lastName": "Nolan",
+        "country": "Indonesia",
+        "city": "South Janiyaberg",
+        "email": "Nikki_Johnston19@yahoo.com",
+        "phone": "684.896.7515 x139",
+        "id": "9"
+    },
+    {
+        "name": "Ada",
+        "lastName": "Metz",
+        "country": "Greenland",
+        "city": "North Bethesda",
+        "email": "Kattie.Hermann@yahoo.com",
+        "phone": "984-899-9547",
+        "id": "10"
+    }
+]
+2024-11-25 19:32:58.156 INFO [api.stepDefinitions.Hooks:25] - *****************************************************************************************
+2024-11-25 19:32:58.156 INFO [api.stepDefinitions.Hooks:26] - 	Scenario finished: View all the clients
+2024-11-25 19:32:58.156 INFO [api.stepDefinitions.Hooks:27] - *****************************************************************************************
+2024-11-25 19:33:37.437 INFO [api.stepDefinitions.Hooks:17] - *****************************************************************************************
+2024-11-25 19:33:37.437 INFO [api.stepDefinitions.Hooks:18] - 	Scenario: View all the clients
+2024-11-25 19:33:37.437 INFO [api.stepDefinitions.Hooks:19] - *****************************************************************************************
+2024-11-25 19:33:37.956 INFO [api.requests.ClientRequest:32] - Calling endpoint: https://6743f860b4e2e04abea02a29.mockapi.io/Clients
+2024-11-25 19:33:39.747 INFO [api.requests.ClientRequest:34] - Status code: 200
+2024-11-25 19:33:39.796 INFO [api.requests.ClientRequest:35] - Response body: [{"name":"Ona","lastName":"Bode","country":"Heard Island and McDonald Islands","city":"South Bryanaborough","email":"Buford.Runte90@yahoo.com","phone":"1-286-649-3877 x12961","id":"1"},{"name":"Laura","lastName":"Wisoky","country":"Nauru","city":"Andersonfort","email":"Hassan.Hane@gmail.com","phone":"317-820-8909 x309","id":"2"},{"name":"Emmet","lastName":"Jacobs","country":"Benin","city":"Levittown","email":"Joyce.Torp@gmail.com","phone":"953-716-0837 x3183","id":"3"},{"name":"Sylvan","lastName":"Ruecker","country":"Cambodia","city":"Biloxi","email":"Cicero_Gleason32@hotmail.com","phone":"886.466.9322 x055","id":"4"},{"name":"Kayleigh","lastName":"Vandervort","country":"Vanuatu","city":"Montebello","email":"Demond.Hoeger37@gmail.com","phone":"987-307-5850 x5186","id":"5"},{"name":"Tyrell","lastName":"Gerhold","country":"United States of America","city":"Vandervortton","email":"Winifred79@yahoo.com","phone":"(832) 834-9878","id":"6"},{"name":"Aliya","lastName":"Macejkovic","country":"Nicaragua","city":"Elainaview","email":"Adah70@gmail.com","phone":"754-809-2390 x7215","id":"7"},{"name":"Jaleel","lastName":"Hagenes","country":"New Zealand","city":"Johnson City","email":"Claudia_Jacobs@yahoo.com","phone":"414.838.2951 x0275","id":"8"},{"name":"Beaulah","lastName":"Nolan","country":"Indonesia","city":"South Janiyaberg","email":"Nikki_Johnston19@yahoo.com","phone":"684.896.7515 x139","id":"9"},{"name":"Ada","lastName":"Metz","country":"Greenland","city":"North Bethesda","email":"Kattie.Hermann@yahoo.com","phone":"984-899-9547","id":"10"}]
+2024-11-25 19:33:39.934 INFO [api.stepDefinitions.ClientSteps:29] - Response: [
+    {
+        "name": "Ona",
+        "lastName": "Bode",
+        "country": "Heard Island and McDonald Islands",
+        "city": "South Bryanaborough",
+        "email": "Buford.Runte90@yahoo.com",
+        "phone": "1-286-649-3877 x12961",
+        "id": "1"
+    },
+    {
+        "name": "Laura",
+        "lastName": "Wisoky",
+        "country": "Nauru",
+        "city": "Andersonfort",
+        "email": "Hassan.Hane@gmail.com",
+        "phone": "317-820-8909 x309",
+        "id": "2"
+    },
+    {
+        "name": "Emmet",
+        "lastName": "Jacobs",
+        "country": "Benin",
+        "city": "Levittown",
+        "email": "Joyce.Torp@gmail.com",
+        "phone": "953-716-0837 x3183",
+        "id": "3"
+    },
+    {
+        "name": "Sylvan",
+        "lastName": "Ruecker",
+        "country": "Cambodia",
+        "city": "Biloxi",
+        "email": "Cicero_Gleason32@hotmail.com",
+        "phone": "886.466.9322 x055",
+        "id": "4"
+    },
+    {
+        "name": "Kayleigh",
+        "lastName": "Vandervort",
+        "country": "Vanuatu",
+        "city": "Montebello",
+        "email": "Demond.Hoeger37@gmail.com",
+        "phone": "987-307-5850 x5186",
+        "id": "5"
+    },
+    {
+        "name": "Tyrell",
+        "lastName": "Gerhold",
+        "country": "United States of America",
+        "city": "Vandervortton",
+        "email": "Winifred79@yahoo.com",
+        "phone": "(832) 834-9878",
+        "id": "6"
+    },
+    {
+        "name": "Aliya",
+        "lastName": "Macejkovic",
+        "country": "Nicaragua",
+        "city": "Elainaview",
+        "email": "Adah70@gmail.com",
+        "phone": "754-809-2390 x7215",
+        "id": "7"
+    },
+    {
+        "name": "Jaleel",
+        "lastName": "Hagenes",
+        "country": "New Zealand",
+        "city": "Johnson City",
+        "email": "Claudia_Jacobs@yahoo.com",
+        "phone": "414.838.2951 x0275",
+        "id": "8"
+    },
+    {
+        "name": "Beaulah",
+        "lastName": "Nolan",
+        "country": "Indonesia",
+        "city": "South Janiyaberg",
+        "email": "Nikki_Johnston19@yahoo.com",
+        "phone": "684.896.7515 x139",
+        "id": "9"
+    },
+    {
+        "name": "Ada",
+        "lastName": "Metz",
+        "country": "Greenland",
+        "city": "North Bethesda",
+        "email": "Kattie.Hermann@yahoo.com",
+        "phone": "984-899-9547",
+        "id": "10"
+    }
+]
+2024-11-25 19:33:40.749 INFO [api.stepDefinitions.Hooks:25] - *****************************************************************************************
+2024-11-25 19:33:40.749 INFO [api.stepDefinitions.Hooks:26] - 	Scenario finished: View all the clients
+2024-11-25 19:33:40.749 INFO [api.stepDefinitions.Hooks:27] - *****************************************************************************************
+2024-11-25 19:33:53.506 INFO [api.stepDefinitions.Hooks:17] - *****************************************************************************************
+2024-11-25 19:33:53.506 INFO [api.stepDefinitions.Hooks:18] - 	Scenario: View all the clients
+2024-11-25 19:33:53.506 INFO [api.stepDefinitions.Hooks:19] - *****************************************************************************************
+2024-11-25 19:33:53.838 INFO [api.requests.ClientRequest:32] - Calling endpoint: https://6743f860b4e2e04abea02a29.mockapi.io/Clients
+2024-11-25 19:33:55.603 INFO [api.requests.ClientRequest:34] - Status code: 200
+2024-11-25 19:33:55.619 INFO [api.requests.ClientRequest:35] - Response body: [{"name":"Ona","lastName":"Bode","country":"Heard Island and McDonald Islands","city":"South Bryanaborough","email":"Buford.Runte90@yahoo.com","phone":"1-286-649-3877 x12961","id":"1"},{"name":"Laura","lastName":"Wisoky","country":"Nauru","city":"Andersonfort","email":"Hassan.Hane@gmail.com","phone":"317-820-8909 x309","id":"2"},{"name":"Emmet","lastName":"Jacobs","country":"Benin","city":"Levittown","email":"Joyce.Torp@gmail.com","phone":"953-716-0837 x3183","id":"3"},{"name":"Sylvan","lastName":"Ruecker","country":"Cambodia","city":"Biloxi","email":"Cicero_Gleason32@hotmail.com","phone":"886.466.9322 x055","id":"4"},{"name":"Kayleigh","lastName":"Vandervort","country":"Vanuatu","city":"Montebello","email":"Demond.Hoeger37@gmail.com","phone":"987-307-5850 x5186","id":"5"},{"name":"Tyrell","lastName":"Gerhold","country":"United States of America","city":"Vandervortton","email":"Winifred79@yahoo.com","phone":"(832) 834-9878","id":"6"},{"name":"Aliya","lastName":"Macejkovic","country":"Nicaragua","city":"Elainaview","email":"Adah70@gmail.com","phone":"754-809-2390 x7215","id":"7"},{"name":"Jaleel","lastName":"Hagenes","country":"New Zealand","city":"Johnson City","email":"Claudia_Jacobs@yahoo.com","phone":"414.838.2951 x0275","id":"8"},{"name":"Beaulah","lastName":"Nolan","country":"Indonesia","city":"South Janiyaberg","email":"Nikki_Johnston19@yahoo.com","phone":"684.896.7515 x139","id":"9"},{"name":"Ada","lastName":"Metz","country":"Greenland","city":"North Bethesda","email":"Kattie.Hermann@yahoo.com","phone":"984-899-9547","id":"10"}]
+2024-11-25 19:33:55.733 INFO [api.stepDefinitions.ClientSteps:29] - Response: [
+    {
+        "name": "Ona",
+        "lastName": "Bode",
+        "country": "Heard Island and McDonald Islands",
+        "city": "South Bryanaborough",
+        "email": "Buford.Runte90@yahoo.com",
+        "phone": "1-286-649-3877 x12961",
+        "id": "1"
+    },
+    {
+        "name": "Laura",
+        "lastName": "Wisoky",
+        "country": "Nauru",
+        "city": "Andersonfort",
+        "email": "Hassan.Hane@gmail.com",
+        "phone": "317-820-8909 x309",
+        "id": "2"
+    },
+    {
+        "name": "Emmet",
+        "lastName": "Jacobs",
+        "country": "Benin",
+        "city": "Levittown",
+        "email": "Joyce.Torp@gmail.com",
+        "phone": "953-716-0837 x3183",
+        "id": "3"
+    },
+    {
+        "name": "Sylvan",
+        "lastName": "Ruecker",
+        "country": "Cambodia",
+        "city": "Biloxi",
+        "email": "Cicero_Gleason32@hotmail.com",
+        "phone": "886.466.9322 x055",
+        "id": "4"
+    },
+    {
+        "name": "Kayleigh",
+        "lastName": "Vandervort",
+        "country": "Vanuatu",
+        "city": "Montebello",
+        "email": "Demond.Hoeger37@gmail.com",
+        "phone": "987-307-5850 x5186",
+        "id": "5"
+    },
+    {
+        "name": "Tyrell",
+        "lastName": "Gerhold",
+        "country": "United States of America",
+        "city": "Vandervortton",
+        "email": "Winifred79@yahoo.com",
+        "phone": "(832) 834-9878",
+        "id": "6"
+    },
+    {
+        "name": "Aliya",
+        "lastName": "Macejkovic",
+        "country": "Nicaragua",
+        "city": "Elainaview",
+        "email": "Adah70@gmail.com",
+        "phone": "754-809-2390 x7215",
+        "id": "7"
+    },
+    {
+        "name": "Jaleel",
+        "lastName": "Hagenes",
+        "country": "New Zealand",
+        "city": "Johnson City",
+        "email": "Claudia_Jacobs@yahoo.com",
+        "phone": "414.838.2951 x0275",
+        "id": "8"
+    },
+    {
+        "name": "Beaulah",
+        "lastName": "Nolan",
+        "country": "Indonesia",
+        "city": "South Janiyaberg",
+        "email": "Nikki_Johnston19@yahoo.com",
+        "phone": "684.896.7515 x139",
+        "id": "9"
+    },
+    {
+        "name": "Ada",
+        "lastName": "Metz",
+        "country": "Greenland",
+        "city": "North Bethesda",
+        "email": "Kattie.Hermann@yahoo.com",
+        "phone": "984-899-9547",
+        "id": "10"
+    }
+]
+2024-11-25 19:33:56.282 INFO [api.stepDefinitions.Hooks:25] - *****************************************************************************************
+2024-11-25 19:33:56.282 INFO [api.stepDefinitions.Hooks:26] - 	Scenario finished: View all the clients
+2024-11-25 19:33:56.282 INFO [api.stepDefinitions.Hooks:27] - *****************************************************************************************
+2024-11-25 19:39:10.268 INFO [api.stepDefinitions.Hooks:17] - *****************************************************************************************
+2024-11-25 19:39:10.271 INFO [api.stepDefinitions.Hooks:18] - 	Scenario: View all the clients
+2024-11-25 19:39:10.271 INFO [api.stepDefinitions.Hooks:19] - *****************************************************************************************
+2024-11-25 19:39:10.659 INFO [api.requests.ClientRequest:32] - Calling endpoint: https://6743f860b4e2e04abea02a29.mockapi.io/Clients
+2024-11-25 19:39:12.536 INFO [api.requests.ClientRequest:34] - Status code: 200
+2024-11-25 19:39:12.551 INFO [api.requests.ClientRequest:35] - Response body: [{"name":"Ona","lastName":"Bode","country":"Heard Island and McDonald Islands","city":"South Bryanaborough","email":"Buford.Runte90@yahoo.com","phone":"1-286-649-3877 x12961","id":"1"},{"name":"Laura","lastName":"Wisoky","country":"Nauru","city":"Andersonfort","email":"Hassan.Hane@gmail.com","phone":"317-820-8909 x309","id":"2"},{"name":"Emmet","lastName":"Jacobs","country":"Benin","city":"Levittown","email":"Joyce.Torp@gmail.com","phone":"953-716-0837 x3183","id":"3"},{"name":"Sylvan","lastName":"Ruecker","country":"Cambodia","city":"Biloxi","email":"Cicero_Gleason32@hotmail.com","phone":"886.466.9322 x055","id":"4"},{"name":"Kayleigh","lastName":"Vandervort","country":"Vanuatu","city":"Montebello","email":"Demond.Hoeger37@gmail.com","phone":"987-307-5850 x5186","id":"5"},{"name":"Tyrell","lastName":"Gerhold","country":"United States of America","city":"Vandervortton","email":"Winifred79@yahoo.com","phone":"(832) 834-9878","id":"6"},{"name":"Aliya","lastName":"Macejkovic","country":"Nicaragua","city":"Elainaview","email":"Adah70@gmail.com","phone":"754-809-2390 x7215","id":"7"},{"name":"Jaleel","lastName":"Hagenes","country":"New Zealand","city":"Johnson City","email":"Claudia_Jacobs@yahoo.com","phone":"414.838.2951 x0275","id":"8"},{"name":"Beaulah","lastName":"Nolan","country":"Indonesia","city":"South Janiyaberg","email":"Nikki_Johnston19@yahoo.com","phone":"684.896.7515 x139","id":"9"},{"name":"Ada","lastName":"Metz","country":"Greenland","city":"North Bethesda","email":"Kattie.Hermann@yahoo.com","phone":"984-899-9547","id":"10"}]
+2024-11-25 19:39:12.659 INFO [api.stepDefinitions.ClientSteps:29] - Response: [
+    {
+        "name": "Ona",
+        "lastName": "Bode",
+        "country": "Heard Island and McDonald Islands",
+        "city": "South Bryanaborough",
+        "email": "Buford.Runte90@yahoo.com",
+        "phone": "1-286-649-3877 x12961",
+        "id": "1"
+    },
+    {
+        "name": "Laura",
+        "lastName": "Wisoky",
+        "country": "Nauru",
+        "city": "Andersonfort",
+        "email": "Hassan.Hane@gmail.com",
+        "phone": "317-820-8909 x309",
+        "id": "2"
+    },
+    {
+        "name": "Emmet",
+        "lastName": "Jacobs",
+        "country": "Benin",
+        "city": "Levittown",
+        "email": "Joyce.Torp@gmail.com",
+        "phone": "953-716-0837 x3183",
+        "id": "3"
+    },
+    {
+        "name": "Sylvan",
+        "lastName": "Ruecker",
+        "country": "Cambodia",
+        "city": "Biloxi",
+        "email": "Cicero_Gleason32@hotmail.com",
+        "phone": "886.466.9322 x055",
+        "id": "4"
+    },
+    {
+        "name": "Kayleigh",
+        "lastName": "Vandervort",
+        "country": "Vanuatu",
+        "city": "Montebello",
+        "email": "Demond.Hoeger37@gmail.com",
+        "phone": "987-307-5850 x5186",
+        "id": "5"
+    },
+    {
+        "name": "Tyrell",
+        "lastName": "Gerhold",
+        "country": "United States of America",
+        "city": "Vandervortton",
+        "email": "Winifred79@yahoo.com",
+        "phone": "(832) 834-9878",
+        "id": "6"
+    },
+    {
+        "name": "Aliya",
+        "lastName": "Macejkovic",
+        "country": "Nicaragua",
+        "city": "Elainaview",
+        "email": "Adah70@gmail.com",
+        "phone": "754-809-2390 x7215",
+        "id": "7"
+    },
+    {
+        "name": "Jaleel",
+        "lastName": "Hagenes",
+        "country": "New Zealand",
+        "city": "Johnson City",
+        "email": "Claudia_Jacobs@yahoo.com",
+        "phone": "414.838.2951 x0275",
+        "id": "8"
+    },
+    {
+        "name": "Beaulah",
+        "lastName": "Nolan",
+        "country": "Indonesia",
+        "city": "South Janiyaberg",
+        "email": "Nikki_Johnston19@yahoo.com",
+        "phone": "684.896.7515 x139",
+        "id": "9"
+    },
+    {
+        "name": "Ada",
+        "lastName": "Metz",
+        "country": "Greenland",
+        "city": "North Bethesda",
+        "email": "Kattie.Hermann@yahoo.com",
+        "phone": "984-899-9547",
+        "id": "10"
+    }
+]
+2024-11-25 19:39:13.413 INFO [api.stepDefinitions.ClientSteps:53] - Successfully validated schema from Client List object
+2024-11-25 19:39:13.413 INFO [api.stepDefinitions.Hooks:25] - *****************************************************************************************
+2024-11-25 19:39:13.413 INFO [api.stepDefinitions.Hooks:26] - 	Scenario finished: View all the clients
+2024-11-25 19:39:13.413 INFO [api.stepDefinitions.Hooks:27] - *****************************************************************************************
+2024-11-25 19:55:22.926 INFO [api.stepDefinitions.Hooks:17] - *****************************************************************************************
+2024-11-25 19:55:22.926 INFO [api.stepDefinitions.Hooks:18] - 	Scenario: View all the clients
+2024-11-25 19:55:22.926 INFO [api.stepDefinitions.Hooks:19] - *****************************************************************************************
+2024-11-25 19:55:23.367 INFO [api.requests.ClientRequest:32] - Calling endpoint: https://6743f860b4e2e04abea02a29.mockapi.io/Clients
+2024-11-25 19:55:25.549 INFO [api.requests.ClientRequest:34] - Status code: 200
+2024-11-25 19:55:25.576 INFO [api.requests.ClientRequest:35] - Response body: [{"name":"Ona","lastName":"Bode","country":"Heard Island and McDonald Islands","city":"South Bryanaborough","email":"Buford.Runte90@yahoo.com","phone":"1-286-649-3877 x12961","id":"1"},{"name":"Laura","lastName":"Wisoky","country":"Nauru","city":"Andersonfort","email":"Hassan.Hane@gmail.com","phone":"317-820-8909 x309","id":"2"},{"name":"Emmet","lastName":"Jacobs","country":"Benin","city":"Levittown","email":"Joyce.Torp@gmail.com","phone":"953-716-0837 x3183","id":"3"},{"name":"Sylvan","lastName":"Ruecker","country":"Cambodia","city":"Biloxi","email":"Cicero_Gleason32@hotmail.com","phone":"886.466.9322 x055","id":"4"},{"name":"Kayleigh","lastName":"Vandervort","country":"Vanuatu","city":"Montebello","email":"Demond.Hoeger37@gmail.com","phone":"987-307-5850 x5186","id":"5"},{"name":"Tyrell","lastName":"Gerhold","country":"United States of America","city":"Vandervortton","email":"Winifred79@yahoo.com","phone":"(832) 834-9878","id":"6"},{"name":"Aliya","lastName":"Macejkovic","country":"Nicaragua","city":"Elainaview","email":"Adah70@gmail.com","phone":"754-809-2390 x7215","id":"7"},{"name":"Jaleel","lastName":"Hagenes","country":"New Zealand","city":"Johnson City","email":"Claudia_Jacobs@yahoo.com","phone":"414.838.2951 x0275","id":"8"},{"name":"Beaulah","lastName":"Nolan","country":"Indonesia","city":"South Janiyaberg","email":"Nikki_Johnston19@yahoo.com","phone":"684.896.7515 x139","id":"9"},{"name":"Ada","lastName":"Metz","country":"Greenland","city":"North Bethesda","email":"Kattie.Hermann@yahoo.com","phone":"984-899-9547","id":"10"}]
+2024-11-25 19:55:25.687 INFO [api.stepDefinitions.ClientSteps:29] - Response: [
+    {
+        "name": "Ona",
+        "lastName": "Bode",
+        "country": "Heard Island and McDonald Islands",
+        "city": "South Bryanaborough",
+        "email": "Buford.Runte90@yahoo.com",
+        "phone": "1-286-649-3877 x12961",
+        "id": "1"
+    },
+    {
+        "name": "Laura",
+        "lastName": "Wisoky",
+        "country": "Nauru",
+        "city": "Andersonfort",
+        "email": "Hassan.Hane@gmail.com",
+        "phone": "317-820-8909 x309",
+        "id": "2"
+    },
+    {
+        "name": "Emmet",
+        "lastName": "Jacobs",
+        "country": "Benin",
+        "city": "Levittown",
+        "email": "Joyce.Torp@gmail.com",
+        "phone": "953-716-0837 x3183",
+        "id": "3"
+    },
+    {
+        "name": "Sylvan",
+        "lastName": "Ruecker",
+        "country": "Cambodia",
+        "city": "Biloxi",
+        "email": "Cicero_Gleason32@hotmail.com",
+        "phone": "886.466.9322 x055",
+        "id": "4"
+    },
+    {
+        "name": "Kayleigh",
+        "lastName": "Vandervort",
+        "country": "Vanuatu",
+        "city": "Montebello",
+        "email": "Demond.Hoeger37@gmail.com",
+        "phone": "987-307-5850 x5186",
+        "id": "5"
+    },
+    {
+        "name": "Tyrell",
+        "lastName": "Gerhold",
+        "country": "United States of America",
+        "city": "Vandervortton",
+        "email": "Winifred79@yahoo.com",
+        "phone": "(832) 834-9878",
+        "id": "6"
+    },
+    {
+        "name": "Aliya",
+        "lastName": "Macejkovic",
+        "country": "Nicaragua",
+        "city": "Elainaview",
+        "email": "Adah70@gmail.com",
+        "phone": "754-809-2390 x7215",
+        "id": "7"
+    },
+    {
+        "name": "Jaleel",
+        "lastName": "Hagenes",
+        "country": "New Zealand",
+        "city": "Johnson City",
+        "email": "Claudia_Jacobs@yahoo.com",
+        "phone": "414.838.2951 x0275",
+        "id": "8"
+    },
+    {
+        "name": "Beaulah",
+        "lastName": "Nolan",
+        "country": "Indonesia",
+        "city": "South Janiyaberg",
+        "email": "Nikki_Johnston19@yahoo.com",
+        "phone": "684.896.7515 x139",
+        "id": "9"
+    },
+    {
+        "name": "Ada",
+        "lastName": "Metz",
+        "country": "Greenland",
+        "city": "North Bethesda",
+        "email": "Kattie.Hermann@yahoo.com",
+        "phone": "984-899-9547",
+        "id": "10"
+    }
+]
+2024-11-25 19:55:26.285 INFO [api.stepDefinitions.ClientSteps:53] - Successfully validated schema from Client List object
+2024-11-25 19:55:26.285 INFO [api.stepDefinitions.Hooks:25] - *****************************************************************************************
+2024-11-25 19:55:26.285 INFO [api.stepDefinitions.Hooks:26] - 	Scenario finished: View all the clients
+2024-11-25 19:55:26.285 INFO [api.stepDefinitions.Hooks:27] - *****************************************************************************************
+2024-11-25 20:03:28.356 INFO [api.stepDefinitions.Hooks:17] - *****************************************************************************************
+2024-11-25 20:03:28.364 INFO [api.stepDefinitions.Hooks:18] - 	Scenario: Successfully update Laura's phone number
+2024-11-25 20:03:28.364 INFO [api.stepDefinitions.Hooks:19] - *****************************************************************************************
+2024-11-25 20:03:28.770 INFO [api.stepDefinitions.Hooks:25] - *****************************************************************************************
+2024-11-25 20:03:28.770 INFO [api.stepDefinitions.Hooks:26] - 	Scenario finished: Successfully update Laura's phone number
+2024-11-25 20:03:28.770 INFO [api.stepDefinitions.Hooks:27] - *****************************************************************************************
+2024-11-25 20:04:26.922 INFO [api.stepDefinitions.Hooks:17] - *****************************************************************************************
+2024-11-25 20:04:26.922 INFO [api.stepDefinitions.Hooks:18] - 	Scenario: Successfully update Laura's phone number
+2024-11-25 20:04:26.922 INFO [api.stepDefinitions.Hooks:19] - *****************************************************************************************
+2024-11-25 20:04:27.263 INFO [api.requests.ClientRequest:32] - Calling endpoint: https://6743f860b4e2e04abea02a29.mockapi.io/Clients
+2024-11-25 20:04:29.520 INFO [api.requests.ClientRequest:34] - Status code: 200
+2024-11-25 20:04:29.545 INFO [api.requests.ClientRequest:35] - Response body: [{"name":"Ona","lastName":"Bode","country":"Heard Island and McDonald Islands","city":"South Bryanaborough","email":"Buford.Runte90@yahoo.com","phone":"1-286-649-3877 x12961","id":"1"},{"name":"Laura","lastName":"Wisoky","country":"Nauru","city":"Andersonfort","email":"Hassan.Hane@gmail.com","phone":"317-820-8909 x309","id":"2"},{"name":"Emmet","lastName":"Jacobs","country":"Benin","city":"Levittown","email":"Joyce.Torp@gmail.com","phone":"953-716-0837 x3183","id":"3"},{"name":"Sylvan","lastName":"Ruecker","country":"Cambodia","city":"Biloxi","email":"Cicero_Gleason32@hotmail.com","phone":"886.466.9322 x055","id":"4"},{"name":"Kayleigh","lastName":"Vandervort","country":"Vanuatu","city":"Montebello","email":"Demond.Hoeger37@gmail.com","phone":"987-307-5850 x5186","id":"5"},{"name":"Tyrell","lastName":"Gerhold","country":"United States of America","city":"Vandervortton","email":"Winifred79@yahoo.com","phone":"(832) 834-9878","id":"6"},{"name":"Aliya","lastName":"Macejkovic","country":"Nicaragua","city":"Elainaview","email":"Adah70@gmail.com","phone":"754-809-2390 x7215","id":"7"},{"name":"Jaleel","lastName":"Hagenes","country":"New Zealand","city":"Johnson City","email":"Claudia_Jacobs@yahoo.com","phone":"414.838.2951 x0275","id":"8"},{"name":"Beaulah","lastName":"Nolan","country":"Indonesia","city":"South Janiyaberg","email":"Nikki_Johnston19@yahoo.com","phone":"684.896.7515 x139","id":"9"},{"name":"Ada","lastName":"Metz","country":"Greenland","city":"North Bethesda","email":"Kattie.Hermann@yahoo.com","phone":"984-899-9547","id":"10"}]
+2024-11-25 20:04:29.679 INFO [api.stepDefinitions.ClientSteps:56] - Found 10 clients in the system
+2024-11-25 20:04:29.701 DEBUG [api.stepDefinitions.ClientSteps:57] - Response body: [
+    {
+        "name": "Ona",
+        "lastName": "Bode",
+        "country": "Heard Island and McDonald Islands",
+        "city": "South Bryanaborough",
+        "email": "Buford.Runte90@yahoo.com",
+        "phone": "1-286-649-3877 x12961",
+        "id": "1"
+    },
+    {
+        "name": "Laura",
+        "lastName": "Wisoky",
+        "country": "Nauru",
+        "city": "Andersonfort",
+        "email": "Hassan.Hane@gmail.com",
+        "phone": "317-820-8909 x309",
+        "id": "2"
+    },
+    {
+        "name": "Emmet",
+        "lastName": "Jacobs",
+        "country": "Benin",
+        "city": "Levittown",
+        "email": "Joyce.Torp@gmail.com",
+        "phone": "953-716-0837 x3183",
+        "id": "3"
+    },
+    {
+        "name": "Sylvan",
+        "lastName": "Ruecker",
+        "country": "Cambodia",
+        "city": "Biloxi",
+        "email": "Cicero_Gleason32@hotmail.com",
+        "phone": "886.466.9322 x055",
+        "id": "4"
+    },
+    {
+        "name": "Kayleigh",
+        "lastName": "Vandervort",
+        "country": "Vanuatu",
+        "city": "Montebello",
+        "email": "Demond.Hoeger37@gmail.com",
+        "phone": "987-307-5850 x5186",
+        "id": "5"
+    },
+    {
+        "name": "Tyrell",
+        "lastName": "Gerhold",
+        "country": "United States of America",
+        "city": "Vandervortton",
+        "email": "Winifred79@yahoo.com",
+        "phone": "(832) 834-9878",
+        "id": "6"
+    },
+    {
+        "name": "Aliya",
+        "lastName": "Macejkovic",
+        "country": "Nicaragua",
+        "city": "Elainaview",
+        "email": "Adah70@gmail.com",
+        "phone": "754-809-2390 x7215",
+        "id": "7"
+    },
+    {
+        "name": "Jaleel",
+        "lastName": "Hagenes",
+        "country": "New Zealand",
+        "city": "Johnson City",
+        "email": "Claudia_Jacobs@yahoo.com",
+        "phone": "414.838.2951 x0275",
+        "id": "8"
+    },
+    {
+        "name": "Beaulah",
+        "lastName": "Nolan",
+        "country": "Indonesia",
+        "city": "South Janiyaberg",
+        "email": "Nikki_Johnston19@yahoo.com",
+        "phone": "684.896.7515 x139",
+        "id": "9"
+    },
+    {
+        "name": "Ada",
+        "lastName": "Metz",
+        "country": "Greenland",
+        "city": "North Bethesda",
+        "email": "Kattie.Hermann@yahoo.com",
+        "phone": "984-899-9547",
+        "id": "10"
+    }
+]
+2024-11-25 20:04:29.712 INFO [api.stepDefinitions.Hooks:25] - *****************************************************************************************
+2024-11-25 20:04:29.712 INFO [api.stepDefinitions.Hooks:26] - 	Scenario finished: Successfully update Laura's phone number
+2024-11-25 20:04:29.712 INFO [api.stepDefinitions.Hooks:27] - *****************************************************************************************
+2024-11-25 20:19:40.551 INFO [api.stepDefinitions.Hooks:17] - *****************************************************************************************
+2024-11-25 20:19:40.551 INFO [api.stepDefinitions.Hooks:18] - 	Scenario: Successfully update Laura's phone number
+2024-11-25 20:19:40.562 INFO [api.stepDefinitions.Hooks:19] - *****************************************************************************************
+2024-11-25 20:19:41.277 INFO [api.requests.ClientRequest:32] - Calling endpoint: https://6743f860b4e2e04abea02a29.mockapi.io/Clients
+2024-11-25 20:19:43.400 INFO [api.requests.ClientRequest:34] - Status code: 200
+2024-11-25 20:19:43.419 INFO [api.requests.ClientRequest:35] - Response body: [{"name":"Ona","lastName":"Bode","country":"Heard Island and McDonald Islands","city":"South Bryanaborough","email":"Buford.Runte90@yahoo.com","phone":"1-286-649-3877 x12961","id":"1"},{"name":"Laura","lastName":"Wisoky","country":"Nauru","city":"Andersonfort","email":"Hassan.Hane@gmail.com","phone":"317-820-8909 x309","id":"2"},{"name":"Emmet","lastName":"Jacobs","country":"Benin","city":"Levittown","email":"Joyce.Torp@gmail.com","phone":"953-716-0837 x3183","id":"3"},{"name":"Sylvan","lastName":"Ruecker","country":"Cambodia","city":"Biloxi","email":"Cicero_Gleason32@hotmail.com","phone":"886.466.9322 x055","id":"4"},{"name":"Kayleigh","lastName":"Vandervort","country":"Vanuatu","city":"Montebello","email":"Demond.Hoeger37@gmail.com","phone":"987-307-5850 x5186","id":"5"},{"name":"Tyrell","lastName":"Gerhold","country":"United States of America","city":"Vandervortton","email":"Winifred79@yahoo.com","phone":"(832) 834-9878","id":"6"},{"name":"Aliya","lastName":"Macejkovic","country":"Nicaragua","city":"Elainaview","email":"Adah70@gmail.com","phone":"754-809-2390 x7215","id":"7"},{"name":"Jaleel","lastName":"Hagenes","country":"New Zealand","city":"Johnson City","email":"Claudia_Jacobs@yahoo.com","phone":"414.838.2951 x0275","id":"8"},{"name":"Beaulah","lastName":"Nolan","country":"Indonesia","city":"South Janiyaberg","email":"Nikki_Johnston19@yahoo.com","phone":"684.896.7515 x139","id":"9"},{"name":"Ada","lastName":"Metz","country":"Greenland","city":"North Bethesda","email":"Kattie.Hermann@yahoo.com","phone":"984-899-9547","id":"10"}]
+2024-11-25 20:19:43.600 INFO [api.stepDefinitions.ClientSteps:100] - Found 10 clients in the system
+2024-11-25 20:19:43.633 DEBUG [api.stepDefinitions.ClientSteps:101] - Response body: [
+    {
+        "name": "Ona",
+        "lastName": "Bode",
+        "country": "Heard Island and McDonald Islands",
+        "city": "South Bryanaborough",
+        "email": "Buford.Runte90@yahoo.com",
+        "phone": "1-286-649-3877 x12961",
+        "id": "1"
+    },
+    {
+        "name": "Laura",
+        "lastName": "Wisoky",
+        "country": "Nauru",
+        "city": "Andersonfort",
+        "email": "Hassan.Hane@gmail.com",
+        "phone": "317-820-8909 x309",
+        "id": "2"
+    },
+    {
+        "name": "Emmet",
+        "lastName": "Jacobs",
+        "country": "Benin",
+        "city": "Levittown",
+        "email": "Joyce.Torp@gmail.com",
+        "phone": "953-716-0837 x3183",
+        "id": "3"
+    },
+    {
+        "name": "Sylvan",
+        "lastName": "Ruecker",
+        "country": "Cambodia",
+        "city": "Biloxi",
+        "email": "Cicero_Gleason32@hotmail.com",
+        "phone": "886.466.9322 x055",
+        "id": "4"
+    },
+    {
+        "name": "Kayleigh",
+        "lastName": "Vandervort",
+        "country": "Vanuatu",
+        "city": "Montebello",
+        "email": "Demond.Hoeger37@gmail.com",
+        "phone": "987-307-5850 x5186",
+        "id": "5"
+    },
+    {
+        "name": "Tyrell",
+        "lastName": "Gerhold",
+        "country": "United States of America",
+        "city": "Vandervortton",
+        "email": "Winifred79@yahoo.com",
+        "phone": "(832) 834-9878",
+        "id": "6"
+    },
+    {
+        "name": "Aliya",
+        "lastName": "Macejkovic",
+        "country": "Nicaragua",
+        "city": "Elainaview",
+        "email": "Adah70@gmail.com",
+        "phone": "754-809-2390 x7215",
+        "id": "7"
+    },
+    {
+        "name": "Jaleel",
+        "lastName": "Hagenes",
+        "country": "New Zealand",
+        "city": "Johnson City",
+        "email": "Claudia_Jacobs@yahoo.com",
+        "phone": "414.838.2951 x0275",
+        "id": "8"
+    },
+    {
+        "name": "Beaulah",
+        "lastName": "Nolan",
+        "country": "Indonesia",
+        "city": "South Janiyaberg",
+        "email": "Nikki_Johnston19@yahoo.com",
+        "phone": "684.896.7515 x139",
+        "id": "9"
+    },
+    {
+        "name": "Ada",
+        "lastName": "Metz",
+        "country": "Greenland",
+        "city": "North Bethesda",
+        "email": "Kattie.Hermann@yahoo.com",
+        "phone": "984-899-9547",
+        "id": "10"
+    }
+]
+2024-11-25 20:19:43.635 INFO [api.requests.ClientRequest:32] - Calling endpoint: https://6743f860b4e2e04abea02a29.mockapi.io/Clients
+2024-11-25 20:19:43.970 INFO [api.requests.ClientRequest:34] - Status code: 200
+2024-11-25 20:19:43.978 INFO [api.requests.ClientRequest:35] - Response body: [{"name":"Ona","lastName":"Bode","country":"Heard Island and McDonald Islands","city":"South Bryanaborough","email":"Buford.Runte90@yahoo.com","phone":"1-286-649-3877 x12961","id":"1"},{"name":"Laura","lastName":"Wisoky","country":"Nauru","city":"Andersonfort","email":"Hassan.Hane@gmail.com","phone":"317-820-8909 x309","id":"2"},{"name":"Emmet","lastName":"Jacobs","country":"Benin","city":"Levittown","email":"Joyce.Torp@gmail.com","phone":"953-716-0837 x3183","id":"3"},{"name":"Sylvan","lastName":"Ruecker","country":"Cambodia","city":"Biloxi","email":"Cicero_Gleason32@hotmail.com","phone":"886.466.9322 x055","id":"4"},{"name":"Kayleigh","lastName":"Vandervort","country":"Vanuatu","city":"Montebello","email":"Demond.Hoeger37@gmail.com","phone":"987-307-5850 x5186","id":"5"},{"name":"Tyrell","lastName":"Gerhold","country":"United States of America","city":"Vandervortton","email":"Winifred79@yahoo.com","phone":"(832) 834-9878","id":"6"},{"name":"Aliya","lastName":"Macejkovic","country":"Nicaragua","city":"Elainaview","email":"Adah70@gmail.com","phone":"754-809-2390 x7215","id":"7"},{"name":"Jaleel","lastName":"Hagenes","country":"New Zealand","city":"Johnson City","email":"Claudia_Jacobs@yahoo.com","phone":"414.838.2951 x0275","id":"8"},{"name":"Beaulah","lastName":"Nolan","country":"Indonesia","city":"South Janiyaberg","email":"Nikki_Johnston19@yahoo.com","phone":"684.896.7515 x139","id":"9"},{"name":"Ada","lastName":"Metz","country":"Greenland","city":"North Bethesda","email":"Kattie.Hermann@yahoo.com","phone":"984-899-9547","id":"10"}]
+2024-11-25 20:19:43.994 INFO [api.stepDefinitions.ClientSteps:69] - Found 1 clients named Laura in the system
+2024-11-25 20:19:43.999 DEBUG [api.stepDefinitions.ClientSteps:74] - Found client: {name=Laura, lastName=Wisoky, country=Nauru, city=Andersonfort, email=Hassan.Hane@gmail.com, phone=317-820-8909 x309, id=2}
+2024-11-25 20:19:44.019 INFO [api.stepDefinitions.Hooks:25] - *****************************************************************************************
+2024-11-25 20:19:44.019 INFO [api.stepDefinitions.Hooks:26] - 	Scenario finished: Successfully update Laura's phone number
+2024-11-25 20:19:44.019 INFO [api.stepDefinitions.Hooks:27] - *****************************************************************************************
+2024-11-25 21:20:55.877 INFO [api.stepDefinitions.Hooks:17] - *****************************************************************************************
+2024-11-25 21:20:55.880 INFO [api.stepDefinitions.Hooks:18] - 	Scenario: Successfully update Laura's phone number
+2024-11-25 21:20:55.880 INFO [api.stepDefinitions.Hooks:19] - *****************************************************************************************
+2024-11-25 21:20:56.110 INFO [api.requests.ClientRequest:32] - Calling endpoint: https://6743f860b4e2e04abea02a29.mockapi.io/Clients
+2024-11-25 21:20:57.514 INFO [api.requests.ClientRequest:34] - Status code: 200
+2024-11-25 21:20:57.524 INFO [api.requests.ClientRequest:35] - Response body: [{"name":"Ona","lastName":"Bode","country":"Heard Island and McDonald Islands","city":"South Bryanaborough","email":"Buford.Runte90@yahoo.com","phone":"1-286-649-3877 x12961","id":"1"},{"name":"Laura","lastName":"Wisoky","country":"Nauru","city":"Andersonfort","email":"Hassan.Hane@gmail.com","phone":"317-820-8909 x309","id":"2"},{"name":"Emmet","lastName":"Jacobs","country":"Benin","city":"Levittown","email":"Joyce.Torp@gmail.com","phone":"953-716-0837 x3183","id":"3"},{"name":"Sylvan","lastName":"Ruecker","country":"Cambodia","city":"Biloxi","email":"Cicero_Gleason32@hotmail.com","phone":"886.466.9322 x055","id":"4"},{"name":"Kayleigh","lastName":"Vandervort","country":"Vanuatu","city":"Montebello","email":"Demond.Hoeger37@gmail.com","phone":"987-307-5850 x5186","id":"5"},{"name":"Tyrell","lastName":"Gerhold","country":"United States of America","city":"Vandervortton","email":"Winifred79@yahoo.com","phone":"(832) 834-9878","id":"6"},{"name":"Laura","lastName":"Macejkovic","country":"Nicaragua","city":"Elainaview","email":"Adah70@gmail.com","phone":"754-809-2390 x7215","id":"7"},{"name":"Jaleel","lastName":"Hagenes","country":"New Zealand","city":"Johnson City","email":"Claudia_Jacobs@yahoo.com","phone":"414.838.2951 x0275","id":"8"},{"name":"Beaulah","lastName":"Nolan","country":"Indonesia","city":"South Janiyaberg","email":"Nikki_Johnston19@yahoo.com","phone":"684.896.7515 x139","id":"9"},{"name":"Ada","lastName":"Metz","country":"Greenland","city":"North Bethesda","email":"Kattie.Hermann@yahoo.com","phone":"984-899-9547","id":"10"}]
+2024-11-25 21:20:57.626 INFO [api.stepDefinitions.ClientSteps:100] - Found 10 clients in the system
+2024-11-25 21:20:57.631 DEBUG [api.stepDefinitions.ClientSteps:101] - Response body: [
+    {
+        "name": "Ona",
+        "lastName": "Bode",
+        "country": "Heard Island and McDonald Islands",
+        "city": "South Bryanaborough",
+        "email": "Buford.Runte90@yahoo.com",
+        "phone": "1-286-649-3877 x12961",
+        "id": "1"
+    },
+    {
+        "name": "Laura",
+        "lastName": "Wisoky",
+        "country": "Nauru",
+        "city": "Andersonfort",
+        "email": "Hassan.Hane@gmail.com",
+        "phone": "317-820-8909 x309",
+        "id": "2"
+    },
+    {
+        "name": "Emmet",
+        "lastName": "Jacobs",
+        "country": "Benin",
+        "city": "Levittown",
+        "email": "Joyce.Torp@gmail.com",
+        "phone": "953-716-0837 x3183",
+        "id": "3"
+    },
+    {
+        "name": "Sylvan",
+        "lastName": "Ruecker",
+        "country": "Cambodia",
+        "city": "Biloxi",
+        "email": "Cicero_Gleason32@hotmail.com",
+        "phone": "886.466.9322 x055",
+        "id": "4"
+    },
+    {
+        "name": "Kayleigh",
+        "lastName": "Vandervort",
+        "country": "Vanuatu",
+        "city": "Montebello",
+        "email": "Demond.Hoeger37@gmail.com",
+        "phone": "987-307-5850 x5186",
+        "id": "5"
+    },
+    {
+        "name": "Tyrell",
+        "lastName": "Gerhold",
+        "country": "United States of America",
+        "city": "Vandervortton",
+        "email": "Winifred79@yahoo.com",
+        "phone": "(832) 834-9878",
+        "id": "6"
+    },
+    {
+        "name": "Laura",
+        "lastName": "Macejkovic",
+        "country": "Nicaragua",
+        "city": "Elainaview",
+        "email": "Adah70@gmail.com",
+        "phone": "754-809-2390 x7215",
+        "id": "7"
+    },
+    {
+        "name": "Jaleel",
+        "lastName": "Hagenes",
+        "country": "New Zealand",
+        "city": "Johnson City",
+        "email": "Claudia_Jacobs@yahoo.com",
+        "phone": "414.838.2951 x0275",
+        "id": "8"
+    },
+    {
+        "name": "Beaulah",
+        "lastName": "Nolan",
+        "country": "Indonesia",
+        "city": "South Janiyaberg",
+        "email": "Nikki_Johnston19@yahoo.com",
+        "phone": "684.896.7515 x139",
+        "id": "9"
+    },
+    {
+        "name": "Ada",
+        "lastName": "Metz",
+        "country": "Greenland",
+        "city": "North Bethesda",
+        "email": "Kattie.Hermann@yahoo.com",
+        "phone": "984-899-9547",
+        "id": "10"
+    }
+]
+2024-11-25 21:20:57.631 INFO [api.requests.ClientRequest:32] - Calling endpoint: https://6743f860b4e2e04abea02a29.mockapi.io/Clients
+2024-11-25 21:20:57.961 INFO [api.requests.ClientRequest:34] - Status code: 200
+2024-11-25 21:20:57.961 INFO [api.requests.ClientRequest:35] - Response body: [{"name":"Ona","lastName":"Bode","country":"Heard Island and McDonald Islands","city":"South Bryanaborough","email":"Buford.Runte90@yahoo.com","phone":"1-286-649-3877 x12961","id":"1"},{"name":"Laura","lastName":"Wisoky","country":"Nauru","city":"Andersonfort","email":"Hassan.Hane@gmail.com","phone":"317-820-8909 x309","id":"2"},{"name":"Emmet","lastName":"Jacobs","country":"Benin","city":"Levittown","email":"Joyce.Torp@gmail.com","phone":"953-716-0837 x3183","id":"3"},{"name":"Sylvan","lastName":"Ruecker","country":"Cambodia","city":"Biloxi","email":"Cicero_Gleason32@hotmail.com","phone":"886.466.9322 x055","id":"4"},{"name":"Kayleigh","lastName":"Vandervort","country":"Vanuatu","city":"Montebello","email":"Demond.Hoeger37@gmail.com","phone":"987-307-5850 x5186","id":"5"},{"name":"Tyrell","lastName":"Gerhold","country":"United States of America","city":"Vandervortton","email":"Winifred79@yahoo.com","phone":"(832) 834-9878","id":"6"},{"name":"Laura","lastName":"Macejkovic","country":"Nicaragua","city":"Elainaview","email":"Adah70@gmail.com","phone":"754-809-2390 x7215","id":"7"},{"name":"Jaleel","lastName":"Hagenes","country":"New Zealand","city":"Johnson City","email":"Claudia_Jacobs@yahoo.com","phone":"414.838.2951 x0275","id":"8"},{"name":"Beaulah","lastName":"Nolan","country":"Indonesia","city":"South Janiyaberg","email":"Nikki_Johnston19@yahoo.com","phone":"684.896.7515 x139","id":"9"},{"name":"Ada","lastName":"Metz","country":"Greenland","city":"North Bethesda","email":"Kattie.Hermann@yahoo.com","phone":"984-899-9547","id":"10"}]
+2024-11-25 21:20:57.971 INFO [api.stepDefinitions.ClientSteps:69] - Found 2 clients named Laura in the system
+2024-11-25 21:20:57.971 DEBUG [api.stepDefinitions.ClientSteps:74] - Found client: {name=Laura, lastName=Wisoky, country=Nauru, city=Andersonfort, email=Hassan.Hane@gmail.com, phone=317-820-8909 x309, id=2}
+2024-11-25 21:20:57.972 DEBUG [api.stepDefinitions.ClientSteps:74] - Found client: {name=Laura, lastName=Macejkovic, country=Nicaragua, city=Elainaview, email=Adah70@gmail.com, phone=754-809-2390 x7215, id=7}
+2024-11-25 21:20:57.978 INFO [api.stepDefinitions.Hooks:25] - *****************************************************************************************
+2024-11-25 21:20:57.978 INFO [api.stepDefinitions.Hooks:26] - 	Scenario finished: Successfully update Laura's phone number
+2024-11-25 21:20:57.978 INFO [api.stepDefinitions.Hooks:27] - *****************************************************************************************
+2024-11-25 21:46:32.779 INFO [api.stepDefinitions.Hooks:17] - *****************************************************************************************
+2024-11-25 21:46:32.779 INFO [api.stepDefinitions.Hooks:18] - 	Scenario: Successfully update Laura's phone number
+2024-11-25 21:46:32.779 INFO [api.stepDefinitions.Hooks:19] - *****************************************************************************************
+2024-11-25 21:46:33.047 INFO [api.requests.ClientRequest:32] - Calling endpoint: https://6743f860b4e2e04abea02a29.mockapi.io/Clients
+2024-11-25 21:46:34.457 INFO [api.requests.ClientRequest:34] - Status code: 200
+2024-11-25 21:46:34.466 INFO [api.requests.ClientRequest:35] - Response body: [{"name":"Ona","lastName":"Bode","country":"Heard Island and McDonald Islands","city":"South Bryanaborough","email":"Buford.Runte90@yahoo.com","phone":"1-286-649-3877 x12961","id":"1"},{"name":"Laura","lastName":"Wisoky","country":"Nauru","city":"Andersonfort","email":"Hassan.Hane@gmail.com","phone":"317-820-8909 x309","id":"2"},{"name":"Emmet","lastName":"Jacobs","country":"Benin","city":"Levittown","email":"Joyce.Torp@gmail.com","phone":"953-716-0837 x3183","id":"3"},{"name":"Sylvan","lastName":"Ruecker","country":"Cambodia","city":"Biloxi","email":"Cicero_Gleason32@hotmail.com","phone":"886.466.9322 x055","id":"4"},{"name":"Kayleigh","lastName":"Vandervort","country":"Vanuatu","city":"Montebello","email":"Demond.Hoeger37@gmail.com","phone":"987-307-5850 x5186","id":"5"},{"name":"Tyrell","lastName":"Gerhold","country":"United States of America","city":"Vandervortton","email":"Winifred79@yahoo.com","phone":"(832) 834-9878","id":"6"},{"name":"Laura","lastName":"Macejkovic","country":"Nicaragua","city":"Elainaview","email":"Adah70@gmail.com","phone":"754-809-2390 x7215","id":"7"},{"name":"Jaleel","lastName":"Hagenes","country":"New Zealand","city":"Johnson City","email":"Claudia_Jacobs@yahoo.com","phone":"414.838.2951 x0275","id":"8"},{"name":"Beaulah","lastName":"Nolan","country":"Indonesia","city":"South Janiyaberg","email":"Nikki_Johnston19@yahoo.com","phone":"684.896.7515 x139","id":"9"},{"name":"Ada","lastName":"Metz","country":"Greenland","city":"North Bethesda","email":"Kattie.Hermann@yahoo.com","phone":"984-899-9547","id":"10"}]
+2024-11-25 21:46:34.577 INFO [api.stepDefinitions.ClientSteps:101] - Found 10 clients in the system
+2024-11-25 21:46:34.595 DEBUG [api.stepDefinitions.ClientSteps:102] - Response body: [
+    {
+        "name": "Ona",
+        "lastName": "Bode",
+        "country": "Heard Island and McDonald Islands",
+        "city": "South Bryanaborough",
+        "email": "Buford.Runte90@yahoo.com",
+        "phone": "1-286-649-3877 x12961",
+        "id": "1"
+    },
+    {
+        "name": "Laura",
+        "lastName": "Wisoky",
+        "country": "Nauru",
+        "city": "Andersonfort",
+        "email": "Hassan.Hane@gmail.com",
+        "phone": "317-820-8909 x309",
+        "id": "2"
+    },
+    {
+        "name": "Emmet",
+        "lastName": "Jacobs",
+        "country": "Benin",
+        "city": "Levittown",
+        "email": "Joyce.Torp@gmail.com",
+        "phone": "953-716-0837 x3183",
+        "id": "3"
+    },
+    {
+        "name": "Sylvan",
+        "lastName": "Ruecker",
+        "country": "Cambodia",
+        "city": "Biloxi",
+        "email": "Cicero_Gleason32@hotmail.com",
+        "phone": "886.466.9322 x055",
+        "id": "4"
+    },
+    {
+        "name": "Kayleigh",
+        "lastName": "Vandervort",
+        "country": "Vanuatu",
+        "city": "Montebello",
+        "email": "Demond.Hoeger37@gmail.com",
+        "phone": "987-307-5850 x5186",
+        "id": "5"
+    },
+    {
+        "name": "Tyrell",
+        "lastName": "Gerhold",
+        "country": "United States of America",
+        "city": "Vandervortton",
+        "email": "Winifred79@yahoo.com",
+        "phone": "(832) 834-9878",
+        "id": "6"
+    },
+    {
+        "name": "Laura",
+        "lastName": "Macejkovic",
+        "country": "Nicaragua",
+        "city": "Elainaview",
+        "email": "Adah70@gmail.com",
+        "phone": "754-809-2390 x7215",
+        "id": "7"
+    },
+    {
+        "name": "Jaleel",
+        "lastName": "Hagenes",
+        "country": "New Zealand",
+        "city": "Johnson City",
+        "email": "Claudia_Jacobs@yahoo.com",
+        "phone": "414.838.2951 x0275",
+        "id": "8"
+    },
+    {
+        "name": "Beaulah",
+        "lastName": "Nolan",
+        "country": "Indonesia",
+        "city": "South Janiyaberg",
+        "email": "Nikki_Johnston19@yahoo.com",
+        "phone": "684.896.7515 x139",
+        "id": "9"
+    },
+    {
+        "name": "Ada",
+        "lastName": "Metz",
+        "country": "Greenland",
+        "city": "North Bethesda",
+        "email": "Kattie.Hermann@yahoo.com",
+        "phone": "984-899-9547",
+        "id": "10"
+    }
+]
+2024-11-25 21:46:34.598 INFO [api.requests.ClientRequest:32] - Calling endpoint: https://6743f860b4e2e04abea02a29.mockapi.io/Clients
+2024-11-25 21:46:34.909 INFO [api.requests.ClientRequest:34] - Status code: 200
+2024-11-25 21:46:34.910 INFO [api.requests.ClientRequest:35] - Response body: [{"name":"Ona","lastName":"Bode","country":"Heard Island and McDonald Islands","city":"South Bryanaborough","email":"Buford.Runte90@yahoo.com","phone":"1-286-649-3877 x12961","id":"1"},{"name":"Laura","lastName":"Wisoky","country":"Nauru","city":"Andersonfort","email":"Hassan.Hane@gmail.com","phone":"317-820-8909 x309","id":"2"},{"name":"Emmet","lastName":"Jacobs","country":"Benin","city":"Levittown","email":"Joyce.Torp@gmail.com","phone":"953-716-0837 x3183","id":"3"},{"name":"Sylvan","lastName":"Ruecker","country":"Cambodia","city":"Biloxi","email":"Cicero_Gleason32@hotmail.com","phone":"886.466.9322 x055","id":"4"},{"name":"Kayleigh","lastName":"Vandervort","country":"Vanuatu","city":"Montebello","email":"Demond.Hoeger37@gmail.com","phone":"987-307-5850 x5186","id":"5"},{"name":"Tyrell","lastName":"Gerhold","country":"United States of America","city":"Vandervortton","email":"Winifred79@yahoo.com","phone":"(832) 834-9878","id":"6"},{"name":"Laura","lastName":"Macejkovic","country":"Nicaragua","city":"Elainaview","email":"Adah70@gmail.com","phone":"754-809-2390 x7215","id":"7"},{"name":"Jaleel","lastName":"Hagenes","country":"New Zealand","city":"Johnson City","email":"Claudia_Jacobs@yahoo.com","phone":"414.838.2951 x0275","id":"8"},{"name":"Beaulah","lastName":"Nolan","country":"Indonesia","city":"South Janiyaberg","email":"Nikki_Johnston19@yahoo.com","phone":"684.896.7515 x139","id":"9"},{"name":"Ada","lastName":"Metz","country":"Greenland","city":"North Bethesda","email":"Kattie.Hermann@yahoo.com","phone":"984-899-9547","id":"10"}]
+2024-11-25 21:46:34.912 INFO [api.stepDefinitions.ClientSteps:69] - Found 2 clients named Laura in the system
+2024-11-25 21:46:34.912 DEBUG [api.stepDefinitions.ClientSteps:74] - Found client: {name=Laura, lastName=Wisoky, country=Nauru, city=Andersonfort, email=Hassan.Hane@gmail.com, phone=317-820-8909 x309, id=2}
+2024-11-25 21:46:34.912 DEBUG [api.stepDefinitions.ClientSteps:74] - Found client: {name=Laura, lastName=Macejkovic, country=Nicaragua, city=Elainaview, email=Adah70@gmail.com, phone=754-809-2390 x7215, id=7}
+2024-11-25 21:46:34.912 INFO [api.stepDefinitions.Hooks:25] - *****************************************************************************************
+2024-11-25 21:46:34.912 INFO [api.stepDefinitions.Hooks:26] - 	Scenario finished: Successfully update Laura's phone number
+2024-11-25 21:46:34.912 INFO [api.stepDefinitions.Hooks:27] - *****************************************************************************************
+2024-11-25 21:58:07.081 INFO [api.stepDefinitions.Hooks:17] - *****************************************************************************************
+2024-11-25 21:58:07.083 INFO [api.stepDefinitions.Hooks:18] - 	Scenario: Successfully update Laura's phone number
+2024-11-25 21:58:07.083 INFO [api.stepDefinitions.Hooks:19] - *****************************************************************************************
+2024-11-25 21:58:07.310 INFO [api.requests.ClientRequest:32] - Calling endpoint: https://6743f860b4e2e04abea02a29.mockapi.io/Clients
+2024-11-25 21:58:08.622 INFO [api.requests.ClientRequest:34] - Status code: 200
+2024-11-25 21:58:08.642 INFO [api.requests.ClientRequest:35] - Response body: [{"name":"Ona","lastName":"Bode","country":"Heard Island and McDonald Islands","city":"South Bryanaborough","email":"Buford.Runte90@yahoo.com","phone":"1-286-649-3877 x12961","id":"1"},{"name":"Laura","lastName":"Wisoky","country":"Nauru","city":"Andersonfort","email":"Hassan.Hane@gmail.com","phone":"317-820-8909 x309","id":"2"},{"name":"Emmet","lastName":"Jacobs","country":"Benin","city":"Levittown","email":"Joyce.Torp@gmail.com","phone":"953-716-0837 x3183","id":"3"},{"name":"Sylvan","lastName":"Ruecker","country":"Cambodia","city":"Biloxi","email":"Cicero_Gleason32@hotmail.com","phone":"886.466.9322 x055","id":"4"},{"name":"Kayleigh","lastName":"Vandervort","country":"Vanuatu","city":"Montebello","email":"Demond.Hoeger37@gmail.com","phone":"987-307-5850 x5186","id":"5"},{"name":"Tyrell","lastName":"Gerhold","country":"United States of America","city":"Vandervortton","email":"Winifred79@yahoo.com","phone":"(832) 834-9878","id":"6"},{"name":"Laura","lastName":"Macejkovic","country":"Nicaragua","city":"Elainaview","email":"Adah70@gmail.com","phone":"754-809-2390 x7215","id":"7"},{"name":"Jaleel","lastName":"Hagenes","country":"New Zealand","city":"Johnson City","email":"Claudia_Jacobs@yahoo.com","phone":"414.838.2951 x0275","id":"8"},{"name":"Beaulah","lastName":"Nolan","country":"Indonesia","city":"South Janiyaberg","email":"Nikki_Johnston19@yahoo.com","phone":"684.896.7515 x139","id":"9"},{"name":"Ada","lastName":"Metz","country":"Greenland","city":"North Bethesda","email":"Kattie.Hermann@yahoo.com","phone":"984-899-9547","id":"10"}]
+2024-11-25 21:58:08.745 INFO [api.stepDefinitions.ClientSteps:102] - Found 10 clients in the system
+2024-11-25 21:58:08.755 DEBUG [api.stepDefinitions.ClientSteps:103] - Response body: [
+    {
+        "name": "Ona",
+        "lastName": "Bode",
+        "country": "Heard Island and McDonald Islands",
+        "city": "South Bryanaborough",
+        "email": "Buford.Runte90@yahoo.com",
+        "phone": "1-286-649-3877 x12961",
+        "id": "1"
+    },
+    {
+        "name": "Laura",
+        "lastName": "Wisoky",
+        "country": "Nauru",
+        "city": "Andersonfort",
+        "email": "Hassan.Hane@gmail.com",
+        "phone": "317-820-8909 x309",
+        "id": "2"
+    },
+    {
+        "name": "Emmet",
+        "lastName": "Jacobs",
+        "country": "Benin",
+        "city": "Levittown",
+        "email": "Joyce.Torp@gmail.com",
+        "phone": "953-716-0837 x3183",
+        "id": "3"
+    },
+    {
+        "name": "Sylvan",
+        "lastName": "Ruecker",
+        "country": "Cambodia",
+        "city": "Biloxi",
+        "email": "Cicero_Gleason32@hotmail.com",
+        "phone": "886.466.9322 x055",
+        "id": "4"
+    },
+    {
+        "name": "Kayleigh",
+        "lastName": "Vandervort",
+        "country": "Vanuatu",
+        "city": "Montebello",
+        "email": "Demond.Hoeger37@gmail.com",
+        "phone": "987-307-5850 x5186",
+        "id": "5"
+    },
+    {
+        "name": "Tyrell",
+        "lastName": "Gerhold",
+        "country": "United States of America",
+        "city": "Vandervortton",
+        "email": "Winifred79@yahoo.com",
+        "phone": "(832) 834-9878",
+        "id": "6"
+    },
+    {
+        "name": "Laura",
+        "lastName": "Macejkovic",
+        "country": "Nicaragua",
+        "city": "Elainaview",
+        "email": "Adah70@gmail.com",
+        "phone": "754-809-2390 x7215",
+        "id": "7"
+    },
+    {
+        "name": "Jaleel",
+        "lastName": "Hagenes",
+        "country": "New Zealand",
+        "city": "Johnson City",
+        "email": "Claudia_Jacobs@yahoo.com",
+        "phone": "414.838.2951 x0275",
+        "id": "8"
+    },
+    {
+        "name": "Beaulah",
+        "lastName": "Nolan",
+        "country": "Indonesia",
+        "city": "South Janiyaberg",
+        "email": "Nikki_Johnston19@yahoo.com",
+        "phone": "684.896.7515 x139",
+        "id": "9"
+    },
+    {
+        "name": "Ada",
+        "lastName": "Metz",
+        "country": "Greenland",
+        "city": "North Bethesda",
+        "email": "Kattie.Hermann@yahoo.com",
+        "phone": "984-899-9547",
+        "id": "10"
+    }
+]
+2024-11-25 21:58:08.755 INFO [api.requests.ClientRequest:32] - Calling endpoint: https://6743f860b4e2e04abea02a29.mockapi.io/Clients
+2024-11-25 21:58:09.094 INFO [api.requests.ClientRequest:34] - Status code: 200
+2024-11-25 21:58:09.095 INFO [api.requests.ClientRequest:35] - Response body: [{"name":"Ona","lastName":"Bode","country":"Heard Island and McDonald Islands","city":"South Bryanaborough","email":"Buford.Runte90@yahoo.com","phone":"1-286-649-3877 x12961","id":"1"},{"name":"Laura","lastName":"Wisoky","country":"Nauru","city":"Andersonfort","email":"Hassan.Hane@gmail.com","phone":"317-820-8909 x309","id":"2"},{"name":"Emmet","lastName":"Jacobs","country":"Benin","city":"Levittown","email":"Joyce.Torp@gmail.com","phone":"953-716-0837 x3183","id":"3"},{"name":"Sylvan","lastName":"Ruecker","country":"Cambodia","city":"Biloxi","email":"Cicero_Gleason32@hotmail.com","phone":"886.466.9322 x055","id":"4"},{"name":"Kayleigh","lastName":"Vandervort","country":"Vanuatu","city":"Montebello","email":"Demond.Hoeger37@gmail.com","phone":"987-307-5850 x5186","id":"5"},{"name":"Tyrell","lastName":"Gerhold","country":"United States of America","city":"Vandervortton","email":"Winifred79@yahoo.com","phone":"(832) 834-9878","id":"6"},{"name":"Laura","lastName":"Macejkovic","country":"Nicaragua","city":"Elainaview","email":"Adah70@gmail.com","phone":"754-809-2390 x7215","id":"7"},{"name":"Jaleel","lastName":"Hagenes","country":"New Zealand","city":"Johnson City","email":"Claudia_Jacobs@yahoo.com","phone":"414.838.2951 x0275","id":"8"},{"name":"Beaulah","lastName":"Nolan","country":"Indonesia","city":"South Janiyaberg","email":"Nikki_Johnston19@yahoo.com","phone":"684.896.7515 x139","id":"9"},{"name":"Ada","lastName":"Metz","country":"Greenland","city":"North Bethesda","email":"Kattie.Hermann@yahoo.com","phone":"984-899-9547","id":"10"}]
+2024-11-25 21:58:09.109 INFO [api.stepDefinitions.ClientSteps:70] - Found 2 clients named Laura in the system
+2024-11-25 21:58:09.111 DEBUG [api.stepDefinitions.ClientSteps:75] - Found client: {name=Laura, lastName=Wisoky, country=Nauru, city=Andersonfort, email=Hassan.Hane@gmail.com, phone=317-820-8909 x309, id=2}
+2024-11-25 21:58:09.112 DEBUG [api.stepDefinitions.ClientSteps:75] - Found client: {name=Laura, lastName=Macejkovic, country=Nicaragua, city=Elainaview, email=Adah70@gmail.com, phone=754-809-2390 x7215, id=7}
+2024-11-25 21:58:09.122 INFO [api.stepDefinitions.Hooks:25] - *****************************************************************************************
+2024-11-25 21:58:09.122 INFO [api.stepDefinitions.Hooks:26] - 	Scenario finished: Successfully update Laura's phone number
+2024-11-25 21:58:09.122 INFO [api.stepDefinitions.Hooks:27] - *****************************************************************************************
+2024-11-25 21:59:53.517 INFO [api.stepDefinitions.Hooks:17] - *****************************************************************************************
+2024-11-25 21:59:53.519 INFO [api.stepDefinitions.Hooks:18] - 	Scenario: Successfully update Laura's phone number
+2024-11-25 21:59:53.520 INFO [api.stepDefinitions.Hooks:19] - *****************************************************************************************
+2024-11-25 21:59:53.750 INFO [api.requests.ClientRequest:32] - Calling endpoint: https://6743f860b4e2e04abea02a29.mockapi.io/Clients
+2024-11-25 21:59:55.074 INFO [api.requests.ClientRequest:34] - Status code: 200
+2024-11-25 21:59:55.087 INFO [api.requests.ClientRequest:35] - Response body: [{"name":"Ona","lastName":"Bode","country":"Heard Island and McDonald Islands","city":"South Bryanaborough","email":"Buford.Runte90@yahoo.com","phone":"1-286-649-3877 x12961","id":"1"},{"name":"Laura","lastName":"Wisoky","country":"Nauru","city":"Andersonfort","email":"Hassan.Hane@gmail.com","phone":"317-820-8909 x309","id":"2"},{"name":"Emmet","lastName":"Jacobs","country":"Benin","city":"Levittown","email":"Joyce.Torp@gmail.com","phone":"953-716-0837 x3183","id":"3"},{"name":"Sylvan","lastName":"Ruecker","country":"Cambodia","city":"Biloxi","email":"Cicero_Gleason32@hotmail.com","phone":"886.466.9322 x055","id":"4"},{"name":"Kayleigh","lastName":"Vandervort","country":"Vanuatu","city":"Montebello","email":"Demond.Hoeger37@gmail.com","phone":"987-307-5850 x5186","id":"5"},{"name":"Tyrell","lastName":"Gerhold","country":"United States of America","city":"Vandervortton","email":"Winifred79@yahoo.com","phone":"(832) 834-9878","id":"6"},{"name":"Laura","lastName":"Macejkovic","country":"Nicaragua","city":"Elainaview","email":"Adah70@gmail.com","phone":"754-809-2390 x7215","id":"7"},{"name":"Jaleel","lastName":"Hagenes","country":"New Zealand","city":"Johnson City","email":"Claudia_Jacobs@yahoo.com","phone":"414.838.2951 x0275","id":"8"},{"name":"Beaulah","lastName":"Nolan","country":"Indonesia","city":"South Janiyaberg","email":"Nikki_Johnston19@yahoo.com","phone":"684.896.7515 x139","id":"9"},{"name":"Ada","lastName":"Metz","country":"Greenland","city":"North Bethesda","email":"Kattie.Hermann@yahoo.com","phone":"984-899-9547","id":"10"}]
+2024-11-25 21:59:55.191 INFO [api.stepDefinitions.ClientSteps:101] - Found 10 clients in the system
+2024-11-25 21:59:55.204 DEBUG [api.stepDefinitions.ClientSteps:102] - Response body: [
+    {
+        "name": "Ona",
+        "lastName": "Bode",
+        "country": "Heard Island and McDonald Islands",
+        "city": "South Bryanaborough",
+        "email": "Buford.Runte90@yahoo.com",
+        "phone": "1-286-649-3877 x12961",
+        "id": "1"
+    },
+    {
+        "name": "Laura",
+        "lastName": "Wisoky",
+        "country": "Nauru",
+        "city": "Andersonfort",
+        "email": "Hassan.Hane@gmail.com",
+        "phone": "317-820-8909 x309",
+        "id": "2"
+    },
+    {
+        "name": "Emmet",
+        "lastName": "Jacobs",
+        "country": "Benin",
+        "city": "Levittown",
+        "email": "Joyce.Torp@gmail.com",
+        "phone": "953-716-0837 x3183",
+        "id": "3"
+    },
+    {
+        "name": "Sylvan",
+        "lastName": "Ruecker",
+        "country": "Cambodia",
+        "city": "Biloxi",
+        "email": "Cicero_Gleason32@hotmail.com",
+        "phone": "886.466.9322 x055",
+        "id": "4"
+    },
+    {
+        "name": "Kayleigh",
+        "lastName": "Vandervort",
+        "country": "Vanuatu",
+        "city": "Montebello",
+        "email": "Demond.Hoeger37@gmail.com",
+        "phone": "987-307-5850 x5186",
+        "id": "5"
+    },
+    {
+        "name": "Tyrell",
+        "lastName": "Gerhold",
+        "country": "United States of America",
+        "city": "Vandervortton",
+        "email": "Winifred79@yahoo.com",
+        "phone": "(832) 834-9878",
+        "id": "6"
+    },
+    {
+        "name": "Laura",
+        "lastName": "Macejkovic",
+        "country": "Nicaragua",
+        "city": "Elainaview",
+        "email": "Adah70@gmail.com",
+        "phone": "754-809-2390 x7215",
+        "id": "7"
+    },
+    {
+        "name": "Jaleel",
+        "lastName": "Hagenes",
+        "country": "New Zealand",
+        "city": "Johnson City",
+        "email": "Claudia_Jacobs@yahoo.com",
+        "phone": "414.838.2951 x0275",
+        "id": "8"
+    },
+    {
+        "name": "Beaulah",
+        "lastName": "Nolan",
+        "country": "Indonesia",
+        "city": "South Janiyaberg",
+        "email": "Nikki_Johnston19@yahoo.com",
+        "phone": "684.896.7515 x139",
+        "id": "9"
+    },
+    {
+        "name": "Ada",
+        "lastName": "Metz",
+        "country": "Greenland",
+        "city": "North Bethesda",
+        "email": "Kattie.Hermann@yahoo.com",
+        "phone": "984-899-9547",
+        "id": "10"
+    }
+]
+2024-11-25 21:59:55.206 INFO [api.requests.ClientRequest:32] - Calling endpoint: https://6743f860b4e2e04abea02a29.mockapi.io/Clients
+2024-11-25 21:59:55.525 INFO [api.requests.ClientRequest:34] - Status code: 200
+2024-11-25 21:59:55.525 INFO [api.requests.ClientRequest:35] - Response body: [{"name":"Ona","lastName":"Bode","country":"Heard Island and McDonald Islands","city":"South Bryanaborough","email":"Buford.Runte90@yahoo.com","phone":"1-286-649-3877 x12961","id":"1"},{"name":"Laura","lastName":"Wisoky","country":"Nauru","city":"Andersonfort","email":"Hassan.Hane@gmail.com","phone":"317-820-8909 x309","id":"2"},{"name":"Emmet","lastName":"Jacobs","country":"Benin","city":"Levittown","email":"Joyce.Torp@gmail.com","phone":"953-716-0837 x3183","id":"3"},{"name":"Sylvan","lastName":"Ruecker","country":"Cambodia","city":"Biloxi","email":"Cicero_Gleason32@hotmail.com","phone":"886.466.9322 x055","id":"4"},{"name":"Kayleigh","lastName":"Vandervort","country":"Vanuatu","city":"Montebello","email":"Demond.Hoeger37@gmail.com","phone":"987-307-5850 x5186","id":"5"},{"name":"Tyrell","lastName":"Gerhold","country":"United States of America","city":"Vandervortton","email":"Winifred79@yahoo.com","phone":"(832) 834-9878","id":"6"},{"name":"Laura","lastName":"Macejkovic","country":"Nicaragua","city":"Elainaview","email":"Adah70@gmail.com","phone":"754-809-2390 x7215","id":"7"},{"name":"Jaleel","lastName":"Hagenes","country":"New Zealand","city":"Johnson City","email":"Claudia_Jacobs@yahoo.com","phone":"414.838.2951 x0275","id":"8"},{"name":"Beaulah","lastName":"Nolan","country":"Indonesia","city":"South Janiyaberg","email":"Nikki_Johnston19@yahoo.com","phone":"684.896.7515 x139","id":"9"},{"name":"Ada","lastName":"Metz","country":"Greenland","city":"North Bethesda","email":"Kattie.Hermann@yahoo.com","phone":"984-899-9547","id":"10"}]
+2024-11-25 21:59:55.525 INFO [api.stepDefinitions.ClientSteps:69] - Found 2 clients named Laura in the system
+2024-11-25 21:59:55.525 DEBUG [api.stepDefinitions.ClientSteps:74] - Found client: {name=Laura, lastName=Wisoky, country=Nauru, city=Andersonfort, email=Hassan.Hane@gmail.com, phone=317-820-8909 x309, id=2}
+2024-11-25 21:59:55.525 DEBUG [api.stepDefinitions.ClientSteps:74] - Found client: {name=Laura, lastName=Macejkovic, country=Nicaragua, city=Elainaview, email=Adah70@gmail.com, phone=754-809-2390 x7215, id=7}
+2024-11-25 21:59:55.546 INFO [api.stepDefinitions.Hooks:25] - *****************************************************************************************
+2024-11-25 21:59:55.546 INFO [api.stepDefinitions.Hooks:26] - 	Scenario finished: Successfully update Laura's phone number
+2024-11-25 21:59:55.546 INFO [api.stepDefinitions.Hooks:27] - *****************************************************************************************
+2024-11-25 22:04:55.818 INFO [api.stepDefinitions.Hooks:17] - *****************************************************************************************
+2024-11-25 22:04:55.818 INFO [api.stepDefinitions.Hooks:18] - 	Scenario: Successfully update Laura's phone number
+2024-11-25 22:04:55.818 INFO [api.stepDefinitions.Hooks:19] - *****************************************************************************************
+2024-11-25 22:04:56.068 INFO [api.requests.ClientRequest:32] - Calling endpoint: https://6743f860b4e2e04abea02a29.mockapi.io/Clients
+2024-11-25 22:04:57.434 INFO [api.requests.ClientRequest:34] - Status code: 200
+2024-11-25 22:04:57.443 INFO [api.requests.ClientRequest:35] - Response body: [{"name":"Ona","lastName":"Bode","country":"Heard Island and McDonald Islands","city":"South Bryanaborough","email":"Buford.Runte90@yahoo.com","phone":"1-286-649-3877 x12961","id":"1"},{"name":"Laura","lastName":"Wisoky","country":"Nauru","city":"Andersonfort","email":"Hassan.Hane@gmail.com","phone":"317-820-8909 x309","id":"2"},{"name":"Emmet","lastName":"Jacobs","country":"Benin","city":"Levittown","email":"Joyce.Torp@gmail.com","phone":"953-716-0837 x3183","id":"3"},{"name":"Sylvan","lastName":"Ruecker","country":"Cambodia","city":"Biloxi","email":"Cicero_Gleason32@hotmail.com","phone":"886.466.9322 x055","id":"4"},{"name":"Kayleigh","lastName":"Vandervort","country":"Vanuatu","city":"Montebello","email":"Demond.Hoeger37@gmail.com","phone":"987-307-5850 x5186","id":"5"},{"name":"Tyrell","lastName":"Gerhold","country":"United States of America","city":"Vandervortton","email":"Winifred79@yahoo.com","phone":"(832) 834-9878","id":"6"},{"name":"Laura","lastName":"Macejkovic","country":"Nicaragua","city":"Elainaview","email":"Adah70@gmail.com","phone":"754-809-2390 x7215","id":"7"},{"name":"Jaleel","lastName":"Hagenes","country":"New Zealand","city":"Johnson City","email":"Claudia_Jacobs@yahoo.com","phone":"414.838.2951 x0275","id":"8"},{"name":"Beaulah","lastName":"Nolan","country":"Indonesia","city":"South Janiyaberg","email":"Nikki_Johnston19@yahoo.com","phone":"684.896.7515 x139","id":"9"},{"name":"Ada","lastName":"Metz","country":"Greenland","city":"North Bethesda","email":"Kattie.Hermann@yahoo.com","phone":"984-899-9547","id":"10"}]
+2024-11-25 22:04:57.547 INFO [api.stepDefinitions.ClientSteps:101] - Found 10 clients in the system
+2024-11-25 22:04:57.552 DEBUG [api.stepDefinitions.ClientSteps:102] - Response body: [
+    {
+        "name": "Ona",
+        "lastName": "Bode",
+        "country": "Heard Island and McDonald Islands",
+        "city": "South Bryanaborough",
+        "email": "Buford.Runte90@yahoo.com",
+        "phone": "1-286-649-3877 x12961",
+        "id": "1"
+    },
+    {
+        "name": "Laura",
+        "lastName": "Wisoky",
+        "country": "Nauru",
+        "city": "Andersonfort",
+        "email": "Hassan.Hane@gmail.com",
+        "phone": "317-820-8909 x309",
+        "id": "2"
+    },
+    {
+        "name": "Emmet",
+        "lastName": "Jacobs",
+        "country": "Benin",
+        "city": "Levittown",
+        "email": "Joyce.Torp@gmail.com",
+        "phone": "953-716-0837 x3183",
+        "id": "3"
+    },
+    {
+        "name": "Sylvan",
+        "lastName": "Ruecker",
+        "country": "Cambodia",
+        "city": "Biloxi",
+        "email": "Cicero_Gleason32@hotmail.com",
+        "phone": "886.466.9322 x055",
+        "id": "4"
+    },
+    {
+        "name": "Kayleigh",
+        "lastName": "Vandervort",
+        "country": "Vanuatu",
+        "city": "Montebello",
+        "email": "Demond.Hoeger37@gmail.com",
+        "phone": "987-307-5850 x5186",
+        "id": "5"
+    },
+    {
+        "name": "Tyrell",
+        "lastName": "Gerhold",
+        "country": "United States of America",
+        "city": "Vandervortton",
+        "email": "Winifred79@yahoo.com",
+        "phone": "(832) 834-9878",
+        "id": "6"
+    },
+    {
+        "name": "Laura",
+        "lastName": "Macejkovic",
+        "country": "Nicaragua",
+        "city": "Elainaview",
+        "email": "Adah70@gmail.com",
+        "phone": "754-809-2390 x7215",
+        "id": "7"
+    },
+    {
+        "name": "Jaleel",
+        "lastName": "Hagenes",
+        "country": "New Zealand",
+        "city": "Johnson City",
+        "email": "Claudia_Jacobs@yahoo.com",
+        "phone": "414.838.2951 x0275",
+        "id": "8"
+    },
+    {
+        "name": "Beaulah",
+        "lastName": "Nolan",
+        "country": "Indonesia",
+        "city": "South Janiyaberg",
+        "email": "Nikki_Johnston19@yahoo.com",
+        "phone": "684.896.7515 x139",
+        "id": "9"
+    },
+    {
+        "name": "Ada",
+        "lastName": "Metz",
+        "country": "Greenland",
+        "city": "North Bethesda",
+        "email": "Kattie.Hermann@yahoo.com",
+        "phone": "984-899-9547",
+        "id": "10"
+    }
+]
+2024-11-25 22:04:57.552 INFO [api.requests.ClientRequest:32] - Calling endpoint: https://6743f860b4e2e04abea02a29.mockapi.io/Clients
+2024-11-25 22:04:57.868 INFO [api.requests.ClientRequest:34] - Status code: 200
+2024-11-25 22:04:57.868 INFO [api.requests.ClientRequest:35] - Response body: [{"name":"Ona","lastName":"Bode","country":"Heard Island and McDonald Islands","city":"South Bryanaborough","email":"Buford.Runte90@yahoo.com","phone":"1-286-649-3877 x12961","id":"1"},{"name":"Laura","lastName":"Wisoky","country":"Nauru","city":"Andersonfort","email":"Hassan.Hane@gmail.com","phone":"317-820-8909 x309","id":"2"},{"name":"Emmet","lastName":"Jacobs","country":"Benin","city":"Levittown","email":"Joyce.Torp@gmail.com","phone":"953-716-0837 x3183","id":"3"},{"name":"Sylvan","lastName":"Ruecker","country":"Cambodia","city":"Biloxi","email":"Cicero_Gleason32@hotmail.com","phone":"886.466.9322 x055","id":"4"},{"name":"Kayleigh","lastName":"Vandervort","country":"Vanuatu","city":"Montebello","email":"Demond.Hoeger37@gmail.com","phone":"987-307-5850 x5186","id":"5"},{"name":"Tyrell","lastName":"Gerhold","country":"United States of America","city":"Vandervortton","email":"Winifred79@yahoo.com","phone":"(832) 834-9878","id":"6"},{"name":"Laura","lastName":"Macejkovic","country":"Nicaragua","city":"Elainaview","email":"Adah70@gmail.com","phone":"754-809-2390 x7215","id":"7"},{"name":"Jaleel","lastName":"Hagenes","country":"New Zealand","city":"Johnson City","email":"Claudia_Jacobs@yahoo.com","phone":"414.838.2951 x0275","id":"8"},{"name":"Beaulah","lastName":"Nolan","country":"Indonesia","city":"South Janiyaberg","email":"Nikki_Johnston19@yahoo.com","phone":"684.896.7515 x139","id":"9"},{"name":"Ada","lastName":"Metz","country":"Greenland","city":"North Bethesda","email":"Kattie.Hermann@yahoo.com","phone":"984-899-9547","id":"10"}]
+2024-11-25 22:04:57.888 INFO [api.stepDefinitions.ClientSteps:69] - Found 2 clients named Laura in the system
+2024-11-25 22:04:57.888 DEBUG [api.stepDefinitions.ClientSteps:74] - Found client: {name=Laura, lastName=Wisoky, country=Nauru, city=Andersonfort, email=Hassan.Hane@gmail.com, phone=317-820-8909 x309, id=2}
+2024-11-25 22:04:57.889 DEBUG [api.stepDefinitions.ClientSteps:74] - Found client: {name=Laura, lastName=Macejkovic, country=Nicaragua, city=Elainaview, email=Adah70@gmail.com, phone=754-809-2390 x7215, id=7}
+2024-11-25 22:04:57.895 INFO [api.stepDefinitions.Hooks:25] - *****************************************************************************************
+2024-11-25 22:04:57.895 INFO [api.stepDefinitions.Hooks:26] - 	Scenario finished: Successfully update Laura's phone number
+2024-11-25 22:04:57.895 INFO [api.stepDefinitions.Hooks:27] - *****************************************************************************************
