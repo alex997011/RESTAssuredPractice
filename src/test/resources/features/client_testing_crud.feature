@@ -8,6 +8,7 @@
 
 
     @test1
+
     Scenario: Successfully update Laura's phone number
       Given the system has at least 10 registered clients
       And there is at least one client named "Laura" in the system
@@ -17,3 +18,4 @@
       Then the response should have a status code of 200
       And the new phone number should be different from the stored number
       And the response body should match the client JSON schema
+      Then I delete all registered clients
