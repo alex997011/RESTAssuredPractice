@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfb153d6-593a-4b38-98af-571c0139bd32" name="Changes" comment="" />
+    <list default="true" id="cfb153d6-593a-4b38-98af-571c0139bd32" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/RestAssuredPracticeProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredPracticeProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAssuredPracticeProject.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredPracticeProject.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAssuredPracticeProject.iws" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredPracticeProject.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/globant/api/requests/ClientRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globant/api/requests/ClientRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/globant/api/stepDefinitions/ClientSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/globant/api/stepDefinitions/ClientSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/client_testing_crud.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/client_testing_crud.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/report" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/report" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/logs/execution.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/logs/execution.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.globant.api.runner.TestRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.globant.api.runner.TestRunner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/client_testing_crud.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/client_testing_crud.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,6 +196,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;alex997011&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/alex997011/RESTAssuredPractice.git&quot;,
+    &quot;accountId&quot;: &quot;99cd53b1-8a7a-4fb3-b8bf-3d08bde05d6e&quot;
+  }
+}</component>
   <component name="HierarchyBrowserManager">
     <option name="SHOW_PACKAGES" value="false" />
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -240,21 +273,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cucumber Java.Feature: client_testing_crud.executor": "Run",
-    "Cucumber Java.Scenario: Successfully update Laura's phone number.executor": "Run",
-    "Cucumber Java.Scenario: View all the clients.executor": "Run",
-    "JUnit.TestRunner.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cucumber Java.Feature: client_testing_crud.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Successfully update Laura's phone number.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: View all the clients.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestRunner.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "Gherkin"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Gherkin&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.TestRunner">
     <configuration selected="false" default="true" type="Applet" factoryName="Applet">
       <module name="" />
@@ -365,9 +399,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Feature: client_testing_crud" />
         <item itemvalue="Cucumber Java.Scenario: Successfully update Laura's phone number" />
         <item itemvalue="Cucumber Java.Scenario: View all the clients" />
-        <item itemvalue="Cucumber Java.Feature: client_testing_crud" />
       </list>
     </recent_temporary>
   </component>
