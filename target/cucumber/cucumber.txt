@@ -1,12 +1,9 @@
 
 @active @test1
-Scenario: Successfully update Laura's phone number                       [90m# src/test/resources/features/client_testing_crud.feature:12[0m
-  [32mGiven [0m[32mthe system has at least 10 registered clients[0m                    [90m# com.globant.api.stepDefinitions.ClientSteps.system_has_least_10_registered_clients()[0m
-  [32mAnd [0m[32mthere is at least one client named [0m[32m[1m"Laura"[0m[32m in the system[0m           [90m# com.globant.api.stepDefinitions.ClientSteps.there_is_least_one_client_with_name(java.lang.String)[0m
-  [32mAnd [0m[32mI retrieve the details of the first client named [0m[32m[1m"Laura"[0m           [90m# com.globant.api.stepDefinitions.ClientSteps.retrieve_the_details_of_first_client_named(java.lang.String)[0m
-  [32mAnd [0m[32mI store her current phone number[0m                                   [90m# com.globant.api.stepDefinitions.ClientSteps.store_current_phone_number()[0m
-  [32mWhen [0m[32mI send a PUT request to update the client with a new phone number[0m [90m# com.globant.api.stepDefinitions.ClientSteps.send_put_request_to_update_client_phone()[0m
-  [32mThen [0m[32mthe response should have a status code of [0m[32m[1m200[0m                     [90m# com.globant.api.stepDefinitions.ClientSteps.verify_status_code(int)[0m
-  [32mAnd [0m[32mthe new phone number should be different from the stored number[0m    [90m# com.globant.api.stepDefinitions.ClientSteps.verify_new_phone_number_is_different()[0m
-  [32mAnd [0m[32mthe response body should match the client JSON schema[0m              [90m# com.globant.api.stepDefinitions.ClientSteps.verify_response_matches_client_schema()[0m
-  [32mThen [0m[32mI delete all registered clients[0m                                   [90m# com.globant.api.stepDefinitions.ClientSteps.delete_all_registered_clients()[0m
+Scenario: Get active resources and update them to inactive  [90m# src/test/resources/features/resource_testing_crud.feature:4[0m
+  [32mGiven [0m[32mthere are at least 5 active resources in the system[0m [90m# com.globant.api.stepDefinitions.ResourceSteps.there_are_at_least_5_active_resources_in_the_system()[0m
+  [32mWhen [0m[32mI get the list of all my active resources[0m            [90m# com.globant.api.stepDefinitions.ResourceSteps.i_get_the_list_of_al_my_active_resources()[0m
+  [32mThen [0m[32mthe response status code is [0m[32m[1m200[0m                      [90m# com.globant.api.stepDefinitions.ResourceSteps.verify_status_code(int)[0m
+  [32mAnd [0m[32mthe response body matches the expected schema[0m         [90m# com.globant.api.stepDefinitions.ResourceSteps.verify_response_matches_resource_schema()[0m
+  [32mWhen [0m[32mI update all of my active resources to inactive[0m      [90m# com.globant.api.stepDefinitions.ResourceSteps.update_all_of_my_active_resources_to_inactive()[0m
+  [32mThen [0m[32mI should see all my resources as inactive[0m            [90m# com.globant.api.stepDefinitions.ResourceSteps.i_should_see_all_my_resources_as_inactive()[0m

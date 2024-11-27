@@ -5,22 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfb153d6-593a-4b38-98af-571c0139bd32" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/RestAssuredPracticeProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredPracticeProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredPracticeProject.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredPracticeProject.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RestAssuredPracticeProject.iws" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredPracticeProject.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/globant/api/requests/ClientRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globant/api/requests/ClientRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/globant/api/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globant/api/utils/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/globant/api/stepDefinitions/ClientSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/globant/api/stepDefinitions/ClientSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/client_testing_crud.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/client_testing_crud.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/resource_testing_crud.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/resource_testing_crud.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/globant/api/requests/ClientRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/globant/api/requests/ClientRequest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber/report" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/report" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/logs/execution.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/logs/execution.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.globant.api.runner.TestRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.globant.api.runner.TestRunner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/globant/api/stepDefinitions/ClientSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/globant/api/stepDefinitions/ClientSteps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/features/client_testing_crud.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/client_testing_crud.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -261,6 +257,9 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2pLpAd9rEdUjKSzPlcLjyhK3Nz0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewSettings">
     <navigator currentView="ProjectPane" flattenPackages="false" showMembers="false" showStructure="false" autoscrollToSource="false" splitterProportion="0.5" />
     <view id="ProjectPane">
@@ -273,22 +272,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Cucumber Java.Feature: client_testing_crud.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Successfully update Laura's phone number.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: View all the clients.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestRunner.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.Feature: client_testing_crud.executor": "Run",
+    "Cucumber Java.Feature: resource_testing_crud.executor": "Run",
+    "Cucumber Java.Scenario: Get active resources and update them to Inactive.executor": "Run",
+    "Cucumber Java.Scenario: Successfully update Laura's phone number.executor": "Run",
+    "Cucumber Java.Scenario: View all the clients.executor": "Run",
+    "JUnit.TestRunner.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature/testcase2",
+    "kotlin-language-version-configured": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;Gherkin&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Gherkin"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="JUnit.TestRunner">
     <configuration selected="false" default="true" type="Applet" factoryName="Applet">
       <module name="" />
@@ -325,15 +326,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Successfully update Laura's phone number" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: resource_testing_crud" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/client_testing_crud.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/resource_testing_crud.feature" />
       <option name="GLUE" value="com.globant.api.stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="RestAssuredPracticeProject" />
-      <option name="NAME_FILTER" value="^Successfully update Laura\'s phone number$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Successfully update Laura\'s phone number$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Successfully update Laura's phone number" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: resource_testing_crud" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -345,15 +345,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: View all the clients" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Get active resources and update them to Inactive" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/resource_testing_crud.feature" />
+      <option name="GLUE" value="com.globant.api.stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="RestAssuredPracticeProject" />
+      <option name="NAME_FILTER" value="^Get active resources and update them to Inactive$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Get active resources and update them to Inactive$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Get active resources and update them to Inactive" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Successfully update Laura's phone number" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/client_testing_crud.feature" />
       <option name="GLUE" value="com.globant.api.stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="RestAssuredPracticeProject" />
-      <option name="NAME_FILTER" value="^View all the clients$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^View all the clients$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: View all the clients" />
+      <option name="NAME_FILTER" value="^Successfully update Laura\'s phone number$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Successfully update Laura\'s phone number$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Successfully update Laura's phone number" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -399,9 +419,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Get active resources and update them to Inactive" />
+        <item itemvalue="Cucumber Java.Feature: resource_testing_crud" />
         <item itemvalue="Cucumber Java.Feature: client_testing_crud" />
         <item itemvalue="Cucumber Java.Scenario: Successfully update Laura's phone number" />
-        <item itemvalue="Cucumber Java.Scenario: View all the clients" />
       </list>
     </recent_temporary>
   </component>
