@@ -25,7 +25,6 @@ public class ClientSteps
     private static final Logger logger = LogManager.getLogger(ClientSteps.class);
     private final ClientRequest clientRequest = new ClientRequest();
     private Response response;
-    private Client client;
     private String storedPhoneNumber;
     private Map<String, Object> currentClient;
 

@@ -37,12 +37,6 @@ public class ClientRequest extends BaseRequest
     }
 
 
-    public Response getClients(String clientName) {
-        endpoint = BASE_URL + Constants.CLIENTS_PATH;
-        Response response = requestGet(endpoint, createBaseHeaders());
-        return response;
-
-    }
     public Response updateClient(String clientId, Map<String, Object> updateData) {
         String endpoint = "/Clients/" + clientId;  // Construimos la URL explícitamente
 
@@ -67,9 +61,7 @@ public class ClientRequest extends BaseRequest
     }
 
 
-    public Client getClientEntity(@NotNull Response response) {
-        return response.as(Client.class);
-    }
+
 
     public List<Client> getClientsEntity(@NotNull Response response) {
         JsonPath jsonPath = response.jsonPath();
@@ -77,20 +69,7 @@ public class ClientRequest extends BaseRequest
     }
 
 
-    public Client getClientEntity(String clientJson) {
-        Gson gson = new Gson();
-        return gson.fromJson(clientJson, Client.class);
-    }
 
-    public boolean validateSchema(Response response, String schemaPath) {
-        try {
-            response.then().assertThat().body(matchesJsonSchemaInClasspath(schemaPath));
-            return true;
-        }
-        catch(AssertionError e) {
-            return false;
-        }
-    }
 
 
 }
