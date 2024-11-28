@@ -7,7 +7,7 @@ For this practice, we will implement 4 test cases for an API in a development en
 1. Java
 2. Maven
 3. RestAssured
-4. Pogo
+4. POJO
 5. Cucumber
 
 # 🧰 Development Tools & Services
@@ -50,6 +50,41 @@ RESOURCES
 ![image](https://github.com/user-attachments/assets/dfb73c1e-5134-4cef-8900-b70b8985f8db)
 
 ![image](https://github.com/user-attachments/assets/8a8c6e64-4ffc-4ba8-a9fa-4fea26e2f749)
+
+###TEST CASES
+
+## 1
+
+![image](https://github.com/user-attachments/assets/93e39c7a-5f9f-4e74-9f9b-4db5b991fbe0)
+
+![image](https://github.com/user-attachments/assets/5d2c6b78-d0b9-453d-ad86-54e67d4435d6)
+
+## 2
+
+![image](https://github.com/user-attachments/assets/97118041-67fc-48da-a828-1f4ec3accec2)
+
+![image](https://github.com/user-attachments/assets/767f8cbc-16c3-4c25-95e9-a6fc7f0f270e)
+
+## 3
+
+![image](https://github.com/user-attachments/assets/e02c2326-0197-43c1-9fef-4b04426430d1)
+
+![image](https://github.com/user-attachments/assets/61ebfe92-d040-4744-9216-d0da1ee4cfd0)
+
+## 4
+
+![image](https://github.com/user-attachments/assets/a2145a22-1228-41eb-aa75-0d706505befc)
+
+![image](https://github.com/user-attachments/assets/61a36846-c1c2-4b1b-8240-e4e0e794053a)
+
+
+
+
+
+
+
+
+
 
 
 
