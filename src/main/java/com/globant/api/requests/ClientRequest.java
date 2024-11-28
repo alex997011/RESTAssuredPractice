@@ -36,8 +36,15 @@ public class ClientRequest extends BaseRequest
         return requestGet(endpoint, createBaseHeaders());
     }
 
+    /**
+     * Creates a new client with the specified data
+     *
+     * @param updateData Map containing client data (name, email, etc.)
+     * @return Response object with the API response
+     */
+
     public Response createClient(Map<String, Object> updateData) {
-        String endpoint = "/Clients" ;
+        endpoint = Constants.CLIENTS_PATH ;
 
         Map<String, String> headers = new HashMap<>();
         headers.put(Constants.CONTENT_TYPE, Constants.VALUE_CONTENT_TYPE);
@@ -49,8 +56,16 @@ public class ClientRequest extends BaseRequest
         );
     }
 
+    /**
+     * Updates an existing client with specified data
+     *
+     * @param clientId ID of the client to update
+     * @param updateData Map containing updated client data
+     * @return Response object with the API response
+     */
+
     public Response updateClient(String clientId, Map<String, Object> updateData) {
-        String endpoint = "/Clients/" + clientId;
+        endpoint = Constants.CLIENTS_PATH + "/" + clientId;
 
         Map<String, String> headers = new HashMap<>();
         headers.put(Constants.CONTENT_TYPE, Constants.VALUE_CONTENT_TYPE);
@@ -62,15 +77,30 @@ public class ClientRequest extends BaseRequest
         );
     }
 
+
+    /**
+     * Deletes a client by their ID
+     *
+     * @param clientId ID of the client to delete
+     * @return Response object containing the deletion result
+     */
+
     public Response deleteClients(String clientId) {
         String endpoint = Constants.CLIENTS_PATH + "/" + clientId;
-        logger.info("DELETE Request URL: {}{}", BASE_URL, endpoint);  // Log completo de la URL
+        logger.info("DELETE Request URL: {}{}", BASE_URL, endpoint);
 
         return requestDelete(
                 endpoint,
                 new HashMap<>()
         );
     }
+
+    /**
+     * Converts API response to list of Client objects
+     *
+     * @param response API response containing client data
+     * @return List of Client objects parsed from response
+     * */
 
     public List<Client> getClientsEntity(@NotNull Response response) {
         JsonPath jsonPath = response.jsonPath();
