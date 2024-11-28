@@ -31,7 +31,7 @@ public class ResourceRequest extends BaseRequest{
     }
 
     public Response updateResource(String resourceId, Map<String, Object> updateData) {
-        String endpoint = "/Resources/" + resourceId;  // Construimos la URL explícitamente
+        String endpoint = "/Resources/" + resourceId;
 
         Map<String, String> headers = new HashMap<>();
         headers.put(Constants.CONTENT_TYPE, Constants.VALUE_CONTENT_TYPE);
@@ -42,6 +42,5 @@ public class ResourceRequest extends BaseRequest{
                 updateData
         );
     }
-
 }
 

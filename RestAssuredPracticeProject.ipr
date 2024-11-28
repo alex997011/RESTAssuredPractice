@@ -44,6 +44,9 @@
   <component name="InspectionProjectProfileManager">
     <profile version="1.0">
       <option name="myName" value="Project Default" />
+      <inspection_tool class="ExtractMethodRecommender" enabled="true" level="WARNING" enabled_by_default="true">
+        <option name="minLength" value="572" />
+      </inspection_tool>
     </profile>
     <version value="1.0" />
   </component>

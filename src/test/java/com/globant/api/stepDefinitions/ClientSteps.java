@@ -100,7 +100,7 @@ public class ClientSteps {
 
     @When("I send a PUT request to update the client with a new phone number")
     public void send_put_request_to_update_client_phone() {
-        String newPhoneNumber = "999-" + System.currentTimeMillis();// creation of a random number phone
+        String newPhoneNumber = "999-" + System.currentTimeMillis();// creation of a random
 
         Map<String, Object> updateData = new HashMap<>();
         updateData.put("phone", newPhoneNumber);
@@ -130,7 +130,6 @@ public class ClientSteps {
     public void     i_send_a_put_request_to_update_parameter_of_new_client() {
         String[] parameters = {"name", "lastName", "country", "city", "email", "phone"};
 
-        // Elegir campo aleatorio
         Random random = new Random();
         updatedField = parameters[random.nextInt(parameters.length)];
         updatedValue = "Updated " + updatedField;
@@ -163,18 +162,15 @@ public class ClientSteps {
 
     @Then("the new phone number should be different from the stored number")
     public void verify_new_phone_number_is_different() {
-        // Obtener cliente actualizado
         response = clientRequest.getClients();
         currentClient = response.jsonPath().getMap("find {it.name == 'Laura'}");
 
-        // Obtener número actual
         String currentPhoneNumber = currentClient.get("phone").toString();
 
-        // Verificar que cambió
         Assert.assertNotEquals(
                 "Phone number should have changed",
-                storedPhoneNumber,  // número guardado anteriormente
-                currentPhoneNumber  // número actual
+                storedPhoneNumber,
+                currentPhoneNumber
         );
         logger.info("Phone number changed from {} to {}", storedPhoneNumber, currentPhoneNumber);
     }
@@ -207,10 +203,8 @@ public class ClientSteps {
         Response listResponse = clientRequest.getClients();
         List<Client> clients = listResponse.jsonPath().getList("$", Client.class);
 
-// Obtener el ID del cliente que acabamos de crear
         String newClientId = response.jsonPath().getString("id");
 
-// Verificar que el cliente existe en la lista
         Client foundClient = clients.stream()
                 .filter(client -> client.getId().equals(newClientId))
                 .findFirst()
@@ -244,10 +238,8 @@ public class ClientSteps {
 
     @And("the response body data should match the updated values")
     public void verify_response_body_matches_updated_values() {
-        // Extraer valores de la respuesta
         JsonPath jsonResponse = response.jsonPath();
 
-        // Verificar solo el campo que fue actualizado aleatoriamente
         Assert.assertEquals(updatedValue, jsonResponse.getString(updatedField));
 
         logger.info("Verified that field '{}' was updated to '{}'", updatedField, updatedValue);

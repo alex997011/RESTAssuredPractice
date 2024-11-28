@@ -1,11 +1,10 @@
 
 @active @test1
-Scenario: Update and delete a New Client                              [90m# src/test/resources/features/client_testing_crud.feature:24[0m
-  [32mGiven [0m[32mthe system has at least 10 registered clients[0m                 [90m# com.globant.api.stepDefinitions.ClientSteps.system_has_least_10_registered_clients()[0m
-  [32mWhen [0m[32mI send a POST request to create a new client[0m                   [90m# com.globant.api.stepDefinitions.ClientSteps.send_pot_request_to_create_new_client()[0m
-  [32mThen [0m[32mI find the new client in my list[0m                               [90m# com.globant.api.stepDefinitions.ClientSteps.i_find_the_new_client_in_my_list()[0m
-  [32mWhen [0m[32mI send a PUT request to update any parameter of the new client[0m [90m# com.globant.api.stepDefinitions.ClientSteps.i_send_a_put_request_to_update_parameter_of_new_client()[0m
-  [32mThen [0m[32mthe response should have a status code of [0m[32m[1m200[0m                  [90m# com.globant.api.stepDefinitions.ClientSteps.verify_status_code(int)[0m
-  [32mAnd [0m[32mthe response body should match the new client JSON schema[0m       [90m# com.globant.api.stepDefinitions.ClientSteps.verify_response_matches_new_client_schema()[0m
-  [32mAnd [0m[32mthe response body data should match the updated values[0m          [90m# com.globant.api.stepDefinitions.ClientSteps.verify_response_body_matches_updated_values()[0m
-  [32mThen [0m[32mI delete the new client[0m                                        [90m# com.globant.api.stepDefinitions.ClientSteps.i_delete_the_new_client()[0m
+Scenario: Update the last created resource                                    [90m# src/test/resources/features/resource_testing_crud.feature:14[0m
+  [32mGiven [0m[32mthe system has at least 15 registered resources[0m                       [90m# com.globant.api.stepDefinitions.ResourceSteps.there_are_at_least_15_registered_resources_in_the_system()[0m
+  [32mWhen [0m[32mI send a GET request to view all the resources[0m                         [90m# com.globant.api.stepDefinitions.ResourceSteps.i_send_a_get_request_to_view_all_the_resources()[0m
+  [32mThen [0m[32mI find the last resource on my list[0m                                    [90m# com.globant.api.stepDefinitions.ResourceSteps.i_find_the_last_resource_on_my_list()[0m
+  [32mWhen [0m[32mI send a PUT request to update all the parameters of the last resource[0m [90m# com.globant.api.stepDefinitions.ResourceSteps.i_send_a_put_request_to_update_all_parameters()[0m
+  [32mThen [0m[32mthe response status code is [0m[32m[1m200[0m                                        [90m# com.globant.api.stepDefinitions.ResourceSteps.verify_status_code(int)[0m
+  [32mAnd [0m[32mthe response body matches the expected schema JSON[0m                      [90m# com.globant.api.stepDefinitions.ResourceSteps.verify_response_matches_resource_schema_json()[0m
+  [32mAnd [0m[32mthe response body data should match the updated values in resource[0m      [90m# com.globant.api.stepDefinitions.ResourceSteps.verify_response_body_matches_updated_values_in_resource()[0m

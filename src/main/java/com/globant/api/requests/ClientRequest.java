@@ -37,7 +37,7 @@ public class ClientRequest extends BaseRequest
     }
 
     public Response createClient(Map<String, Object> updateData) {
-        String endpoint = "/Clients" ;  // Construimos la URL explícitamente
+        String endpoint = "/Clients" ;
 
         Map<String, String> headers = new HashMap<>();
         headers.put(Constants.CONTENT_TYPE, Constants.VALUE_CONTENT_TYPE);
@@ -50,7 +50,7 @@ public class ClientRequest extends BaseRequest
     }
 
     public Response updateClient(String clientId, Map<String, Object> updateData) {
-        String endpoint = "/Clients/" + clientId;  // Construimos la URL explícitamente
+        String endpoint = "/Clients/" + clientId;
 
         Map<String, String> headers = new HashMap<>();
         headers.put(Constants.CONTENT_TYPE, Constants.VALUE_CONTENT_TYPE);
@@ -71,9 +71,6 @@ public class ClientRequest extends BaseRequest
                 new HashMap<>()
         );
     }
-
-
-
 
     public List<Client> getClientsEntity(@NotNull Response response) {
         JsonPath jsonPath = response.jsonPath();

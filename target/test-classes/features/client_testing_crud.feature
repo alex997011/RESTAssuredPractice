@@ -20,7 +20,7 @@
       And the response body should match the client JSON schema
       Then I delete all registered clients
 
-      @test1
+
       Scenario: Update and delete a New Client
         Given the system has at least 10 registered clients
         When I send a POST request to create a new client
