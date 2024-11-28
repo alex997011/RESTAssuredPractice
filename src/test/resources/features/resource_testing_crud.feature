@@ -1,6 +1,5 @@
-@active
-
-Feature: Resource CRUD
+@test_all
+Feature: Resource Testing CRUD
   Scenario: Get active resources and update them to inactive
     Given there are at least 5 active resources in the system
     When I get the list of all my active resources
@@ -10,7 +9,6 @@ Feature: Resource CRUD
     Then I should see all my resources as inactive
 
 
-  @test1
   Scenario: Update the last created resource
     Given the system has at least 15 registered resources
     When I send a GET request to view all the resources
