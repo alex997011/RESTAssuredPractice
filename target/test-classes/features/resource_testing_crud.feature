@@ -1,5 +1,5 @@
 @test_all
-Feature: Resource CRUD
+Feature: Resource Testing CRUD
   Scenario: Get active resources and update them to inactive
     Given there are at least 5 active resources in the system
     When I get the list of all my active resources

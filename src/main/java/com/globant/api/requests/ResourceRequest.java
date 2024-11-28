@@ -19,19 +19,38 @@ public class ResourceRequest extends BaseRequest{
     private String endpoint;
     private  static final Logger logger = LogManager.getLogger(ResourceRequest.class);
 
+    /**
+     * Retrieves all resources from the API
+     *
+     * @return Response containing list of resources
+     */
 
     public Response getResources() {
         endpoint = BASE_URL + Constants.RESOURCES_PATH;
         return requestGet(endpoint, createBaseHeaders());
     }
 
+    /**
+     * Converts API response into list of Resource objects
+     *
+     * @param response API response containing resource data
+     * @return List of Resource objects
+     */
     public List<Resource> getResourceEntity(@NotNull Response response) {
         JsonPath jsonPath = response.jsonPath();
         return jsonPath.getList("", Resource.class);
     }
 
+    /**
+     * Updates a resource with specified data
+     *
+     * @param resourceId ID of resource to update
+     * @param updateData Map of fields to update
+     * @return API response
+     */
+
     public Response updateResource(String resourceId, Map<String, Object> updateData) {
-        String endpoint = "/Resources/" + resourceId;
+        endpoint = Constants.RESOURCES_PATH + "/" + resourceId;
 
         Map<String, String> headers = new HashMap<>();
         headers.put(Constants.CONTENT_TYPE, Constants.VALUE_CONTENT_TYPE);

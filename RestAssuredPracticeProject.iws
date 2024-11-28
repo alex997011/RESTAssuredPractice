@@ -6,13 +6,24 @@
   <component name="ChangeListManager">
     <list default="true" id="cfb153d6-593a-4b38-98af-571c0139bd32" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/RestAssuredPracticeProject.iws" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredPracticeProject.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/globant/api/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/globant/api/runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/globant/api/requests/BaseRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globant/api/requests/BaseRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/globant/api/requests/ClientRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globant/api/requests/ClientRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/globant/api/requests/ResourceRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globant/api/requests/ResourceRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/globant/api/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globant/api/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/globant/api/stepDefinitions/ClientSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/globant/api/stepDefinitions/ClientSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/globant/api/stepDefinitions/ResourceSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/globant/api/stepDefinitions/ResourceSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/client_testing_crud.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/client_testing_crud.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/resource_testing_crud.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/resource_testing_crud.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/globant/api/requests/BaseRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/globant/api/requests/BaseRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/globant/api/requests/ClientRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/globant/api/requests/ClientRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/globant/api/requests/ResourceRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/globant/api/requests/ResourceRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/globant/api/utils/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/globant/api/utils/Constants.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/cucumber.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber/report" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/report" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/logs/execution.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/logs/execution.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/globant/api/stepDefinitions/ClientSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/globant/api/stepDefinitions/ClientSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/globant/api/stepDefinitions/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/globant/api/stepDefinitions/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/globant/api/stepDefinitions/ResourceSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/globant/api/stepDefinitions/ResourceSteps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/features/client_testing_crud.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/client_testing_crud.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/features/resource_testing_crud.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/resource_testing_crud.feature" afterDir="false" />
     </list>
@@ -278,7 +289,7 @@
     "Cucumber Java.Scenario: View all the clients.executor": "Run",
     "JUnit.TestRunner.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "changes",
     "kotlin-language-version-configured": "true"
   },
   "keyToStringList": {

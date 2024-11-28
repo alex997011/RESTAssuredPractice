@@ -12,14 +12,15 @@ Scenario Outline: Successfully update Laura's phone number               [90m# 
   [32mThen [0m[32mI delete all registered clients[0m                                   [90m# com.globant.api.stepDefinitions.ClientSteps.delete_all_registered_clients()[0m
 
 @test_all
-Scenario Outline: Update and delete a New Client                      [90m# src/test/resources/features/client_testing_crud.feature:29[0m
+Scenario Outline: Update and delete a New Client                      [90m# src/test/resources/features/client_testing_crud.feature:30[0m
+  [32mGiven [0m[32mI send a GET request for the connection with my system[0m        [90m# com.globant.api.stepDefinitions.ClientSteps.i_semd_a_get_request_for_The_connection_with_my_system()[0m
   [32mWhen [0m[32mI send a POST request to create a new client[0m                   [90m# com.globant.api.stepDefinitions.ClientSteps.send_pot_request_to_create_new_client()[0m
   [32mThen [0m[32mI find the new client in my list[0m                               [90m# com.globant.api.stepDefinitions.ClientSteps.i_find_the_new_client_in_my_list()[0m
   [32mWhen [0m[32mI send a PUT request to update any parameter of the new client[0m [90m# com.globant.api.stepDefinitions.ClientSteps.i_send_a_put_request_to_update_parameter_of_new_client()[0m
   [32mThen [0m[32mthe response should have a status code of [0m[32m[1m200[0m                  [90m# com.globant.api.stepDefinitions.ClientSteps.verify_status_code(int)[0m
   [32mAnd [0m[32mthe response body should match the new client JSON schema[0m       [90m# com.globant.api.stepDefinitions.ClientSteps.verify_response_matches_new_client_schema()[0m
   [32mAnd [0m[32mthe response body data should match the updated values[0m          [90m# com.globant.api.stepDefinitions.ClientSteps.verify_response_body_matches_updated_values()[0m
-  [32mThen [0m[32mI delete the new client[0m                                        [90m# com.globant.api.stepDefinitions.ClientSteps.i_delete_the_new_client()[0m
+  [32mThen [0m[32mI DELETE the new client[0m                                        [90m# com.globant.api.stepDefinitions.ClientSteps.i_delete_the_new_client()[0m
 
 @test_all
 Scenario: Get active resources and update them to inactive  [90m# src/test/resources/features/resource_testing_crud.feature:3[0m

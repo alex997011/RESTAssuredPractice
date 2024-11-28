@@ -73,45 +73,6 @@ public class ResourceSteps
         logger.info("Details of the resources that are active: {}", activeResources);
     }
 
-    @Then("the response status code is {int}")
-    public void verify_status_code(int expectedStatusCode) {
-        logger.info("Response status code is : {}", response.getStatusCode());
-        Assert.assertEquals(expectedStatusCode, response.getStatusCode());
-    }
-
-    @And("the response body matches the expected schema")
-    public void verify_response_matches_resource_schema() {
-        response.then()
-                .assertThat()
-                .body(matchesJsonSchemaInClasspath("schemas/resourceListSchema.json"));
-        logger.info("Response body matches the resource list JSON schema");
-    }
-
-    @And("the response body matches the expected schema JSON")
-    public void verify_response_matches_resource_schema_json() {
-        response.then()
-                .assertThat()
-                .body(matchesJsonSchemaInClasspath("schemas/resourceSchema.json"));
-        logger.info("Response body matches the resource JSON schema");
-    }
-
-
-    @And("the response body data should match the updated values in resource")
-    public void verify_response_body_matches_updated_values_in_resource() {
-        JsonPath jsonResponse = response.jsonPath();
-
-        Assert.assertEquals("Updated Name", jsonResponse.get("name"));
-        Assert.assertEquals("Updated Trademark", jsonResponse.get("trademark"));
-        Assert.assertEquals(Integer.valueOf(100), jsonResponse.get("stock"));
-        Assert.assertEquals(Float.valueOf(99.99f), jsonResponse.get("price"));
-        Assert.assertEquals("Updated Description", jsonResponse.get("description"));
-        Assert.assertEquals("Updated Tags", jsonResponse.get("tags"));
-        Assert.assertEquals(!lastResource.getActive(), jsonResponse.get("active"));
-
-
-        logger.info("All resource values were successfully verified");
-    }
-
     @When("I update all of my active resources to inactive")
     public void update_all_of_my_active_resources_to_inactive() {
         boolean asInactive = false;
@@ -125,7 +86,6 @@ public class ResourceSteps
         }
 
         logger.info("Updated {} resources from active to inactive", activeResources.size());
-
     }
 
     @When("I send a GET request to view all the resources")
@@ -172,8 +132,45 @@ public class ResourceSteps
                 updateData.get("active"),
                 currentActiveStatus
         );
+    }
+
+    @Then("the response status code is {int}")
+    public void verify_status_code(int expectedStatusCode) {
+        logger.info("Response status code is : {}", response.getStatusCode());
+        Assert.assertEquals(expectedStatusCode, response.getStatusCode());
+    }
+
+    @And("the response body matches the expected schema")
+    public void verify_response_matches_resource_schema() {
+        response.then()
+                .assertThat()
+                .body(matchesJsonSchemaInClasspath("schemas/resourceListSchema.json"));
+        logger.info("Response body matches the resource list JSON schema");
+    }
+
+    @And("the response body matches the expected schema JSON")
+    public void verify_response_matches_resource_schema_json() {
+        response.then()
+                .assertThat()
+                .body(matchesJsonSchemaInClasspath("schemas/resourceSchema.json"));
+        logger.info("Response body matches the resource JSON schema");
+    }
 
 
+    @And("the response body data should match the updated values in resource")
+    public void verify_response_body_matches_updated_values_in_resource() {
+        JsonPath jsonResponse = response.jsonPath();
+
+        Assert.assertEquals("Updated Name", jsonResponse.get("name"));
+        Assert.assertEquals("Updated Trademark", jsonResponse.get("trademark"));
+        Assert.assertEquals(Integer.valueOf(100), jsonResponse.get("stock"));
+        Assert.assertEquals(Float.valueOf(99.99f), jsonResponse.get("price"));
+        Assert.assertEquals("Updated Description", jsonResponse.get("description"));
+        Assert.assertEquals("Updated Tags", jsonResponse.get("tags"));
+        Assert.assertEquals(!lastResource.getActive(), jsonResponse.get("active"));
+
+
+        logger.info("All resource values were successfully verified");
     }
 
     @Then("I should see all my resources as inactive")

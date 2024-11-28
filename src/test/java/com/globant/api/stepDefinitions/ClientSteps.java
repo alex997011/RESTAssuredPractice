@@ -28,41 +28,6 @@ public class ClientSteps {
     private String updatedValue;
 
 
-    @Given("there are registered clients in the system")
-    public void there_are_registered_clients_in_the_system() {
-        try {
-            response = clientRequest.getClients();
-            if (response != null) {
-                logger.info("Response: " + response.jsonPath().prettyPrint());
-                Assert.assertEquals(200, response.statusCode());
-            } else {
-                logger.error("Response is null");
-                throw new AssertionError("Response is null");
-            }
-        } catch (Exception e) {
-            logger.error("Error in step: " + e.getMessage());
-            throw e;
-        }
-    }
-
-    @Given("there is at least one client named {string} in the system")
-    public void there_is_least_one_client_with_name(String clientName) {
-        response = clientRequest.getClients();
-        List<Map<String, Object>> clients = response.jsonPath().getList("$");
-
-        long clientsFound = clients.stream()
-                .filter(client -> clientName.equals(client.get("name")))
-                .count();
-
-        Assert.assertTrue(
-                String.format("Expected at least one client named %s but found %d", clientName, clientsFound),
-                clientsFound > 0
-        );
-
-        logger.info("Found {} clients named {}", clientsFound, clientName);
-    }
-
-
     @Given("the system has at least 10 registered clients")
     public void system_has_least_10_registered_clients() {
         response = clientRequest.getClients();
@@ -77,19 +42,12 @@ public class ClientSteps {
         logger.info("Found at least {} clients in the system", clientCount);
     }
 
-    @Given("I retrieve the details of the first client named {string}")
-    public void retrieve_the_details_of_first_client_named(String clientName) {
+    @Given("I send a GET request for the connection with my system")
+    public void i_semd_a_get_request_for_The_connection_with_my_system() {
         response = clientRequest.getClients();
-        currentClient = response.jsonPath().getMap(String.format("find {it.name == '%s'}", clientName));
-        Assert.assertEquals(clientName, currentClient.get("name"));
-        logger.info("Details of the first client named Laura: {}", currentClient);
+        Assert.assertEquals(200, response.getStatusCode());
     }
 
-    @And("I store her current phone number")
-    public void store_current_phone_number() {
-        storedPhoneNumber = currentClient.get("phone").toString();
-        logger.info("Stored her current phone number: {}", storedPhoneNumber);
-    }
 
     @When("I send a GET request to view all the clients")
     public void i_send_a_get_request_to_view_all_the_clients() {
@@ -115,11 +73,11 @@ public class ClientSteps {
     @When("I send a POST request to create a new client")
     public void send_pot_request_to_create_new_client() {
         Map<String, Object> newClient = new HashMap<>();
-        newClient.put("name", "Test Client");
-        newClient.put("lastName", "Test LastName");
-        newClient.put("country", "Test Country");
-        newClient.put("city", "Test City");
-        newClient.put("email", "test@test.com");
+        newClient.put("name", "Test New Client");
+        newClient.put("lastName", "Test New LastName");
+        newClient.put("country", "Test New Country");
+        newClient.put("city", "Test New City");
+        newClient.put("email", "testnew@gmail.com");
         newClient.put("phone", "1234567890");
 
         response = clientRequest.createClient(newClient);
@@ -143,7 +101,64 @@ public class ClientSteps {
         logger.info("Updated field '{}' with value '{}'", updatedField, updatedValue);
     }
 
+    @And("there is at least one client named {string} in the system")
+    public void there_is_least_one_client_with_name(String clientName) {
+        response = clientRequest.getClients();
+        List<Map<String, Object>> clients = response.jsonPath().getList("$");
 
+        long clientsFound = clients.stream()
+                .filter(client -> clientName.equals(client.get("name")))
+                .count();
+
+        Assert.assertTrue(
+                String.format("Expected at least one client named %s but found %d", clientName, clientsFound),
+                clientsFound > 0
+        );
+
+        logger.info("Found {} clients named {}", clientsFound, clientName);
+    }
+
+    @And("I retrieve the details of the first client named {string}")
+    public void retrieve_the_details_of_first_client_named(String clientName) {
+        response = clientRequest.getClients();
+        currentClient = response.jsonPath().getMap(String.format("find {it.name == '%s'}", clientName));
+        Assert.assertEquals(clientName, currentClient.get("name"));
+        logger.info("Details of the first client named Laura: {}", currentClient);
+    }
+
+    @And("I store her current phone number")
+    public void store_current_phone_number() {
+        storedPhoneNumber = currentClient.get("phone").toString();
+        logger.info("Stored her current phone number: {}", storedPhoneNumber);
+    }
+
+
+    @And("the response body should match the client JSON schema")
+    public void verify_response_matches_client_schema() {
+        response.then()
+                .assertThat()
+                .body(matchesJsonSchemaInClasspath("schemas/clientListSchema.json"));
+        logger.info("Response body matches the client list JSON schema");
+    }
+
+
+    @And("the response body should match the new client JSON schema")
+    public void verify_response_matches_new_client_schema() {
+        response.then()
+                .assertThat()
+                .body(matchesJsonSchemaInClasspath("schemas/clientSchema.json")); // Usando el schema correcto
+
+        logger.info("Response body successfully validated against client schema");
+    }
+
+    @And("the response body data should match the updated values")
+    public void verify_response_body_matches_updated_values() {
+        JsonPath jsonResponse = response.jsonPath();
+
+        Assert.assertEquals(updatedValue, jsonResponse.getString(updatedField));
+
+        logger.info("Verified that field '{}' was updated to '{}'", updatedField, updatedValue);
+    }
 
     @Then("the response validates the client information")
     public void the_response_validates_the_client_information() {
@@ -214,38 +229,9 @@ public class ClientSteps {
 
         logger.info("New client with ID {} was found in the list", newClientId);
         logger.info("New client details: {}", foundClient);
-        }
-
-
-
-    @And("the response body should match the client JSON schema")
-    public void verify_response_matches_client_schema() {
-        response.then()
-                .assertThat()
-                .body(matchesJsonSchemaInClasspath("schemas/clientListSchema.json"));
-        logger.info("Response body matches the client list JSON schema");
     }
 
-
-    @And("the response body should match the new client JSON schema")
-    public void verify_response_matches_new_client_schema() {
-        response.then()
-                .assertThat()
-                .body(matchesJsonSchemaInClasspath("schemas/clientSchema.json")); // Usando el schema correcto
-
-        logger.info("Response body successfully validated against client schema");
-    }
-
-    @And("the response body data should match the updated values")
-    public void verify_response_body_matches_updated_values() {
-        JsonPath jsonResponse = response.jsonPath();
-
-        Assert.assertEquals(updatedValue, jsonResponse.getString(updatedField));
-
-        logger.info("Verified that field '{}' was updated to '{}'", updatedField, updatedValue);
-    }
-
-    @Then("I delete the new client")
+    @Then("I DELETE the new client")
     public void i_delete_the_new_client() {
         String clientId = response.jsonPath().getString("id");
         response = clientRequest.deleteClients(clientId);
@@ -253,6 +239,5 @@ public class ClientSteps {
         Assert.assertEquals(200, response.getStatusCode());
 
         logger.info("Deleted client successful with ID: {}", clientId);
-
     }
 }
