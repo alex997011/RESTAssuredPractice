@@ -280,24 +280,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cucumber Java.Feature: client_testing_crud.executor": "Run",
-    "Cucumber Java.Feature: resource_testing_crud.executor": "Run",
-    "Cucumber Java.Scenario: Get active resources and update them to Inactive.executor": "Run",
-    "Cucumber Java.Scenario: Successfully update Laura's phone number.executor": "Run",
-    "Cucumber Java.Scenario: View all the clients.executor": "Run",
-    "JUnit.TestRunner.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "changes",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cucumber Java.Feature: client_testing_crud.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: resource_testing_crud.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Get active resources and update them to Inactive.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Successfully update Laura's phone number.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: View all the clients.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestRunner.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;changes&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "Gherkin"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Gherkin&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.TestRunner">
     <configuration selected="false" default="true" type="Applet" factoryName="Applet">
       <module name="" />
