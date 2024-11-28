@@ -36,6 +36,18 @@ public class ClientRequest extends BaseRequest
         return requestGet(endpoint, createBaseHeaders());
     }
 
+    public Response createClient(Map<String, Object> updateData) {
+        String endpoint = "/Clients" ;  // Construimos la URL explícitamente
+
+        Map<String, String> headers = new HashMap<>();
+        headers.put(Constants.CONTENT_TYPE, Constants.VALUE_CONTENT_TYPE);
+
+        return requestPost(
+                endpoint,
+                headers,
+                updateData
+        );
+    }
 
     public Response updateClient(String clientId, Map<String, Object> updateData) {
         String endpoint = "/Clients/" + clientId;  // Construimos la URL explícitamente

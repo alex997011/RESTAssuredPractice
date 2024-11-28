@@ -19,3 +19,17 @@
       And the new phone number should be different from the stored number
       And the response body should match the client JSON schema
       Then I delete all registered clients
+
+      @test1
+      Scenario: Update and delete a New Client
+        Given the system has at least 10 registered clients
+        When I send a POST request to create a new client
+        Then I find the new client in my list
+        When I send a PUT request to update any parameter of the new client
+        Then the response should have a status code of 200
+        And the response body should match the new client JSON schema
+        And the response body data should match the updated values
+        Then I delete the new client
+
+
+

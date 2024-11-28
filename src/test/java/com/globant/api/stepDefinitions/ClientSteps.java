@@ -7,27 +7,25 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Assert;
 
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 
 
-public class ClientSteps
-{
+public class ClientSteps {
     private static final Logger logger = LogManager.getLogger(ClientSteps.class);
     private final ClientRequest clientRequest = new ClientRequest();
     private Response response;
     private String storedPhoneNumber;
     private Map<String, Object> currentClient;
-
+    private String updatedField;
+    private String updatedValue;
 
 
     @Given("there are registered clients in the system")
@@ -114,6 +112,40 @@ public class ClientSteps
                 clientId, storedPhoneNumber, newPhoneNumber);
     }
 
+    @When("I send a POST request to create a new client")
+    public void send_pot_request_to_create_new_client() {
+        Map<String, Object> newClient = new HashMap<>();
+        newClient.put("name", "Test Client");
+        newClient.put("lastName", "Test LastName");
+        newClient.put("country", "Test Country");
+        newClient.put("city", "Test City");
+        newClient.put("email", "test@test.com");
+        newClient.put("phone", "1234567890");
+
+        response = clientRequest.createClient(newClient);
+
+    }
+
+    @When("I send a PUT request to update any parameter of the new client")
+    public void     i_send_a_put_request_to_update_parameter_of_new_client() {
+        String[] parameters = {"name", "lastName", "country", "city", "email", "phone"};
+
+        // Elegir campo aleatorio
+        Random random = new Random();
+        updatedField = parameters[random.nextInt(parameters.length)];
+        updatedValue = "Updated " + updatedField;
+
+        Map<String, Object> updateData = new HashMap<>();
+        updateData.put(updatedField, updatedValue);
+
+        String clientId = response.jsonPath().getString("id");
+        response = clientRequest.updateClient(clientId, updateData);
+
+        logger.info("Updated field '{}' with value '{}'", updatedField, updatedValue);
+    }
+
+
+
     @Then("the response validates the client information")
     public void the_response_validates_the_client_information() {
         response.then()
@@ -169,6 +201,27 @@ public class ClientSteps
         logger.info("Successfully deleted all clients");
     }
 
+    @Then("I find the new client in my list")
+    public void i_find_the_new_client_in_my_list() {
+
+        Response listResponse = clientRequest.getClients();
+        List<Client> clients = listResponse.jsonPath().getList("$", Client.class);
+
+// Obtener el ID del cliente que acabamos de crear
+        String newClientId = response.jsonPath().getString("id");
+
+// Verificar que el cliente existe en la lista
+        Client foundClient = clients.stream()
+                .filter(client -> client.getId().equals(newClientId))
+                .findFirst()
+                .orElse(null);
+
+        Assert.assertNotNull("El nuevo cliente no se encontró en la lista", foundClient);
+
+        logger.info("New client with ID {} was found in the list", newClientId);
+        logger.info("New client details: {}", foundClient);
+        }
+
 
 
     @And("the response body should match the client JSON schema")
@@ -179,4 +232,35 @@ public class ClientSteps
         logger.info("Response body matches the client list JSON schema");
     }
 
-   }
+
+    @And("the response body should match the new client JSON schema")
+    public void verify_response_matches_new_client_schema() {
+        response.then()
+                .assertThat()
+                .body(matchesJsonSchemaInClasspath("schemas/clientSchema.json")); // Usando el schema correcto
+
+        logger.info("Response body successfully validated against client schema");
+    }
+
+    @And("the response body data should match the updated values")
+    public void verify_response_body_matches_updated_values() {
+        // Extraer valores de la respuesta
+        JsonPath jsonResponse = response.jsonPath();
+
+        // Verificar solo el campo que fue actualizado aleatoriamente
+        Assert.assertEquals(updatedValue, jsonResponse.getString(updatedField));
+
+        logger.info("Verified that field '{}' was updated to '{}'", updatedField, updatedValue);
+    }
+
+    @Then("I delete the new client")
+    public void i_delete_the_new_client() {
+        String clientId = response.jsonPath().getString("id");
+        response = clientRequest.deleteClients(clientId);
+
+        Assert.assertEquals(200, response.getStatusCode());
+
+        logger.info("Deleted client successful with ID: {}", clientId);
+
+    }
+}
