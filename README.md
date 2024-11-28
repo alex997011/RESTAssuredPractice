@@ -88,6 +88,18 @@ EXAMPLE:
 
 ![image](https://github.com/user-attachments/assets/0fe4eb84-2688-4905-8333-6a04474dda92)
 
+#### Test Case 2 
+For proper testing, configure your MockAPI's Resources resource with:
+- At least you neeed to have 5 active resource
+Example:
+
+![image](https://github.com/user-attachments/assets/6d80876e-5a82-4ae9-b2ba-c9da2d61e9ea)
+
+- active: true
+
+
+
+
 
 
 
