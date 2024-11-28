@@ -77,6 +77,13 @@ RESOURCES
 
 ![image](https://github.com/user-attachments/assets/61a36846-c1c2-4b1b-8240-e4e0e794053a)
 
+# ⚠️ RECOMENDATIONS
+
+For the Test case 1 will work, in your MockAPI, in the Resource of Clients, you have to generate at least 15 random clients and depends of how many Lauras you want, You need to change only the name, example: 
+
+![image](https://github.com/user-attachments/assets/c109f216-f2ae-4d2e-8b24-50474cb0eda9)
+
+
 
 
 
