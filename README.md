@@ -79,10 +79,17 @@ RESOURCES
 
 # ⚠️ MockAPI Test Data Setup
 
-#### Test Case 1: Client Generation 
+#### Test Case 1
 For proper testing, configure your MockAPI's Clients resource with:
-- At least 15 random clients 
+- At least 10 random clients 
 - Multiple clients named "Laura" (modify only the name field)
+
+EXAMPLE: 
+
+![image](https://github.com/user-attachments/assets/0fe4eb84-2688-4905-8333-6a04474dda92)
+
+
+
 
 
 
